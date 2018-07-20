@@ -48,7 +48,7 @@ $link-color-default:            $brand-color-scooter;
 $ui-space-base:                 8px;
 
 $ui-border-width:               1px;
-$ui-border-color:               $brand-color-gray03;
+$ui-border-color:               $brand-color-gray01;
 $ui-border-radius:              $ui-space-base;
 
 //        Main header
@@ -107,7 +107,7 @@ $type-headline-line-height:     3.2rem;
 $type-headline-letter-spacing:  tracking-to-ems(0);
 
 $type-title-size:               2.0rem;
-$type-title-weight:             $type-weight-regular;
+$type-title-weight:             $type-weight-medium;
 $type-title-line-height:        2.8rem;
 $type-title-letter-spacing:     tracking-to-ems(0);
 
@@ -141,7 +141,7 @@ $type-caption-letter-spacing:   tracking-to-ems(0);
 $type-button-size:              1.4rem;
 $type-button-weight:            $type-weight-medium;
 $type-button-line-height:       1.6rem;
-$type-button-letter-spacing:    tracking-to-ems(0);
+$type-button-letter-spacing:    0.075rem;
 
 
 /*  =4.0  SHADOWS     

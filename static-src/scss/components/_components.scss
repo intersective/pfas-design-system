@@ -216,16 +216,16 @@ form[class^="form-"] {
     --------------------------*/
 
 .btn {
-  display:                      block;
-  padding:                      $ui-space-base * 1.5 $ui-space-base * 3;
+  display:                      inline-block;
+  padding:                      $ui-space-base * 1.5 $ui-space-base * 2;
   color:                        $white;
   background-color:             $brand-color-scooter;
   box-sizing:                   border-box;
   text-align:                   center;
   border:                       0;
   border-radius:                $ui-border-radius;
-  box-shadow:                   $shadow-elevation1;
   transition:                   background-color 0.3s ease;
+  text-transform:               uppercase;
   cursor:                       pointer;
 
   @include type-button();

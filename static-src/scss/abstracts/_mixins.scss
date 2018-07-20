@@ -59,20 +59,20 @@
   line-height:                  $type-title-line-height;
 }
 
-@mixin type-subhead2() {
+@mixin type-subheading2() {
   font-family:                  $type-base-family;
-  font-size:                    $type-subhead2-size;
-  font-weight:                  $type-subhead2-weight;
-  letter-spacing:               $type-subhead2-letter-spacing;
-  line-height:                  $type-subhead2-line-height;
+  font-size:                    $type-subheading2-size;
+  font-weight:                  $type-subheading2-weight;
+  letter-spacing:               $type-subheading2-letter-spacing;
+  line-height:                  $type-subheading2-line-height;
 }
 
-@mixin type-subhead1() {
+@mixin type-subheading1() {
   font-family:                  $type-base-family;
-  font-size:                    $type-subhead1-size;
-  font-weight:                  $type-subhead1-weight;
-  letter-spacing:               $type-subhead1-letter-spacing;
-  line-height:                  $type-subhead1-line-height;
+  font-size:                    $type-subheading1-size;
+  font-weight:                  $type-subheading1-weight;
+  letter-spacing:               $type-subheading1-letter-spacing;
+  line-height:                  $type-subheading1-line-height;
 }
 
 @mixin type-body2() {

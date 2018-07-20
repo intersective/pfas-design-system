@@ -29,6 +29,11 @@
 
 //        General
 
+html,
+body {
+  height:                       100%;
+}
+
 body {
   margin:                       0;
   padding:                      0;
@@ -77,6 +82,7 @@ body > header {
   width:                        100%;
   height:                       $main-header-height;
   padding:                      0 $ui-space-base;
+  border-bottom:                $ui-border-width solid $ui-border-color;
   display:                      flex;
   align-items:                  center;
   justify-content:              space-between;
@@ -94,6 +100,21 @@ body > header {
       padding:                  $ui-space-base * 2;
     }
   }
+
+  .main-logo {
+    display:                    flex;
+    align-items:                center;
+    appearance:                 none;
+    color:                      $text-color-default;
+    text-decoration:            none;
+
+    @include type-title();
+
+    svg {
+      margin-right:             16px;
+    }
+  }
+  
 }
 
 
@@ -134,7 +155,7 @@ main {
   &.container-flex {
     display:                    flex;
     justify-content:            space-between;
-    align-items:                flex-start;
+    align-items:                stretch;
     flex-wrap:                  wrap;
   }
 
@@ -167,10 +188,94 @@ main {
           Layout for various sections
     --------------------------*/
 
+//        Documentation-style Wrapper
+
+.doc-wrapper {
+  padding:                      0;
+  height:                   calc(100% - #{$main-header-height});
+
+  @include media(">tablet") {
+    height:                 calc(100% - #{$ui-space-base * 10});
+  }
+}
+
+//        Side Navigation
+
+.side-nav {
+  border-right:                 $ui-border-width solid $ui-border-color;
+  height:                       100%;
+  overflow:                     auto;
+
+  @include grid-col(10, 16);
+
+  @include media(">phone") {
+    @include grid-col(3, 16);
+  }
+
+  @include media(">desktop") {
+    @include grid-col(4, 16);
+  }
+
+  @include media(">hd") {
+    @include grid-col(3, 16);
+  }
+
+  ul {
+    list-style:                 none;
+    padding:                    0;
+    margin:                     0;
+  }
+
+  nav > ul {
+    padding-top:                $ui-space-base * 4;
+    padding-bottom:             $ui-space-base * 4;
+  }
+
+  li {
+    @include type-subheading1();
+
+    a {
+      color:                    $text-color-default;
+      display:                  block;
+      padding:                  $ui-space-base * 1.5 $ui-space-base * 4;
+    }
+
+    > ul > li,
+    > ul > li > ul > li,
+    > ul > li > ul > li > ul > li {
+      @include type-body1();
+
+      a {
+        padding:                $ui-space-base * 1.25 $ui-space-base * 4;
+        padding-left:           $ui-space-base * 6;
+      }
+    }
+  }
+}
+
+.side-nav ~ main {
+  height:                       100%;
+  overflow:                     auto;
+
+  @include grid-col(16, 16);
+
+  @include media(">phone") {
+    @include grid-col(16, 16);
+  }
+
+  @include media(">desktop") {
+    @include grid-col(12, 16);
+  }
+
+  @include media(">hd") {
+    @include grid-col(13, 16);
+  }
+}
+
 //        Footer
 
-body > footer {
-  height:                       $ui-space-base * 16;
+main > footer {
+  height:                       $ui-space-base * 10;
   display:                      flex;
   align-items:                  center;
   align-content:                center;
@@ -183,18 +288,5 @@ body > footer {
 
   p {
     margin:                     0;
-  }
-}
-
-
-//        Side Navigation
-
-.side-nav {
-  list-style:                   none;
-  padding-left:                 0;
-
-  a {
-    color:                      $text-color-secondary;
-    line-height:                3.2rem;
   }
 }
