@@ -1,0 +1,142 @@
+/*  CONTENTS
+    Tip:  Find to jump
+    ----------------------------
+    =1.0  Typography
+    =2.0  Grid System
+    =3.0  Utilities
+    --------------------------*/
+
+    
+/*  =1.0  TYPOGRAPHY
+          Assign type styles to any element
+    --------------------------*/
+
+@mixin type-display4() {
+  font-family:                  $type-base-family;
+  font-size:                    $type-display4-size;
+  font-weight:                  $type-display4-weight;
+  letter-spacing:               $type-display4-letter-spacing;
+  line-height:                  $type-display4-line-height;
+}
+
+@mixin type-display3() {
+  font-family:                  $type-base-family;
+  font-size:                    $type-display3-size;
+  font-weight:                  $type-display3-weight;
+  letter-spacing:               $type-display3-letter-spacing;
+  line-height:                  $type-display3-line-height;
+}
+
+@mixin type-display2() {
+  font-family:                  $type-base-family;
+  font-size:                    $type-display2-size;
+  font-weight:                  $type-display2-weight;
+  letter-spacing:               $type-display2-letter-spacing;
+  line-height:                  $type-display2-line-height;
+}
+
+@mixin type-display1() {
+  font-family:                  $type-base-family;
+  font-size:                    $type-display1-size;
+  font-weight:                  $type-display1-weight;
+  letter-spacing:               $type-display1-letter-spacing;
+  line-height:                  $type-display1-line-height;
+}
+
+@mixin type-headline() {
+  font-family:                  $type-base-family;
+  font-size:                    $type-headline-size;
+  font-weight:                  $type-headline-weight;
+  letter-spacing:               $type-headline-letter-spacing;
+  line-height:                  $type-headline-line-height;
+}
+
+@mixin type-title() {
+  font-family:                  $type-base-family;
+  font-size:                    $type-title-size;
+  font-weight:                  $type-title-weight;
+  letter-spacing:               $type-title-letter-spacing;
+  line-height:                  $type-title-line-height;
+}
+
+@mixin type-subhead2() {
+  font-family:                  $type-base-family;
+  font-size:                    $type-subhead2-size;
+  font-weight:                  $type-subhead2-weight;
+  letter-spacing:               $type-subhead2-letter-spacing;
+  line-height:                  $type-subhead2-line-height;
+}
+
+@mixin type-subhead1() {
+  font-family:                  $type-base-family;
+  font-size:                    $type-subhead1-size;
+  font-weight:                  $type-subhead1-weight;
+  letter-spacing:               $type-subhead1-letter-spacing;
+  line-height:                  $type-subhead1-line-height;
+}
+
+@mixin type-body2() {
+  font-family:                  $type-base-family;
+  font-size:                    $type-body2-size;
+  font-weight:                  $type-body2-weight;
+  letter-spacing:               $type-body2-letter-spacing;
+  line-height:                  $type-body2-line-height;
+}
+
+@mixin type-body1() {
+  font-family:                  $type-base-family;
+  font-size:                    $type-body1-size;
+  font-weight:                  $type-body1-weight;
+  letter-spacing:               $type-body1-letter-spacing;
+  line-height:                  $type-body1-line-height;
+}
+
+@mixin type-caption() {
+  font-family:                  $type-base-family;
+  font-size:                    $type-caption-size;
+  font-weight:                  $type-caption-weight;
+  letter-spacing:               $type-caption-letter-spacing;
+  line-height:                  $type-caption-line-height;
+}
+
+@mixin type-button() {
+  font-family:                  $type-base-family;
+  font-size:                    $type-button-size;
+  font-weight:                  $type-button-weight;
+  letter-spacing:               $type-button-letter-spacing;
+  line-height:                  $type-button-line-height;
+}
+
+
+/*  =2.0  GRID SYSTEM   
+          Rows, columns and offsets
+    --------------------------*/
+
+@mixin grid-row {
+  display:                      flex;
+  flex-direction:               row;
+  width:                        100%;
+  box-sizing:                   border-box;
+  flex-wrap:                    wrap;
+}
+
+@mixin grid-col($col, $sum) {
+  width:                        decimal-floor(percentage($col/$sum));
+  box-sizing:                   border-box;
+  vertical-align:               top;
+}
+
+@mixin grid-push($col, $sum) {
+  margin-left:                  decimal-floor(percentage($col/$sum));
+}
+
+
+/*  =3.0  UTILITIES  
+          Helpful stuff
+    --------------------------*/
+
+@mixin hide-text {
+  text-indent:                  200%;
+  white-space:                  nowrap;
+  overflow:                     hidden;
+}

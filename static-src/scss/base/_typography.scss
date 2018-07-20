@@ -1,0 +1,92 @@
+/*  CONTENTS
+    Tip:  Find to jump
+    ----------------------------
+    =1.0  Web Fonts
+    =2.0  Rem Reset
+    =3.0  Base
+    =4.0  Headings
+    =5.0  Helpers
+    --------------------------*/
+
+    
+/*  =1.0  WEB FONTS         
+          Base layout and colors
+    --------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+
+/*  =2.0  REM RESET      
+          To work with rems
+    --------------------------*/
+
+html {
+  font-size:                    62.5%;
+}
+
+
+/*  =3.0  BASE   
+          Default text style
+    --------------------------*/
+
+body {
+  @include type-body1();
+  color:                        $text-color-default;
+}
+
+p, ul, ol {
+  @include type-body1();
+}
+
+hr {
+  height:                       1px;
+  margin:                       0;
+  padding:                      0;
+  font-size:                    0;
+  background-color:             $ui-border-color;
+  color:                        transparent;
+  border:                       0;
+}
+
+
+/*  =4.0  HEADINGS
+          Should correspond to MD styles
+    --------------------------*/
+
+h1 {
+  @include type-display1();
+
+  @include media(">tablet") {
+    @include type-display2();
+  }
+}
+
+h2 {
+  @include type-title();
+}
+
+h3 {
+  @include type-headline();
+}
+
+
+/*  =5.0  HELPERS
+          Usually used inline to style words and phrases
+    --------------------------*/
+
+.monospace {
+  font-family:                  $type-mono-family;
+}
+
+.align-left {
+  text-align:                   left;
+}
+
+.align-center {
+  text-align:                   center;
+}
+
+.align-right {
+  text-align:                   right;
+}

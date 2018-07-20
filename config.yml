@@ -1,0 +1,13 @@
+baseURL: "https://pfas.practera.com/"
+languageCode: "en-us"
+title: "PFAS Design System"
+permalinks:
+  post: /:title/
+taxonomies:
+  category: "categories"
+  tag: "tags"
+paginate: 10
+copyright: "All Rights Reserved"
+author:
+    name: "Aen"
+    email: "aen@practera.com"

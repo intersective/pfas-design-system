@@ -1,0 +1,17 @@
+/*  CONTENTS
+    Tip:  Find to jump
+    Gulp-replace change "%23" (in color codes, invalid svg) into %23".
+    ----------------------------
+    =1.0  Component Assets
+    --------------------------*/
+
+
+/*  =1.0  COMPONENT ASSETS          
+          Material icons
+    --------------------------*/
+
+$svg-check-mark: 'data:image/svg+xml;utf8,<svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="m17 8.5-7.5 7-2.5-2.5" fill="none" stroke="%23fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>';
+
+$svg-radio-mark: 'data:image/svg+xml;utf8,<svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" fill="none" r="8" stroke="%23fff" stroke-width="4"/></svg>';
+
+$svg-dropdown-caret: 'data:image/svg+xml;utf8,<svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M11.616 14.54L7.683 9.82A.5.5 0 0 1 8.068 9h7.864a.5.5 0 0 1 .385.82l-3.933 4.72a.5.5 0 0 1-.768 0z" fill-opacity=".505" fill-rule="evenodd"/></svg>';

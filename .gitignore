@@ -1,0 +1,17 @@
+public/.gitattributes
+
+.DS_Store
+
+node_modules/
+public/
+
+data/**/hash.json
+data/*/hash.json
+static/css/*
+static/img/*
+static/js/*
+.DS_Store
+public/.DS_Store
+static/.DS_Store
+static/src/.DS_Store
+public/CNAME

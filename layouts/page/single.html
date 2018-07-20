@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{{ .Title }}</title>
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
+  <body id="top" class="page">
+
+    {{ partial "header.html" . }}
+
+    <main>
+
+      <article>
+
+        <header>
+          <div class="container">
+            <h1>Just a Page</h1>
+          </div>
+        </header>
+        
+        <section>
+          <div class="container container-narrow">
+            <p>This is a an &lt;article&gt;.</p>
+            <h2>Forms</h2>
+            <h3>Inline Forms</h3>
+            <p>Uses flexbox to make fields inline (tablet and above).</p>
+            <form class="form-inline">
+              <div class="input-group">
+                <label for="field1">
+                  <input id="field1" type="text" placeholder="Field 1" />
+                  <span class="label">Field 1</span>
+                </label>
+              </div>
+              <div class="input-group">
+                <label for="field2">
+                  <select id="field2" placeholder="Field 2">
+                    <option>Choose...</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                  <span class="label">Field 2</span>
+                </label>
+              </div>
+            </form>
+            <h3>Block Forms</h3>
+            <form>
+              <div class="input-group">
+                <label for="field3">
+                  <input id="field3" type="text" placeholder="Field 3" />
+                  <span class="label">Field 3</span>
+                </label>
+              </div>
+              <div class="input-group">
+                <label for="field4">
+                  <input id="field4" type="text" placeholder="Field 4" />
+                  <span class="label">Field 4</span>
+                </label>
+              </div>
+              <div class="input-group">
+                <input type="checkbox" value="" id="check1">
+                <label for="check1">
+                  Checkbox
+                </label>
+              </div>
+              <div class="input-group">
+                <input type="checkbox" value="" id="check2" checked>
+                <label for="check2">
+                  Checkbox checked
+                </label>
+              </div>
+              <div class="input-group">
+                <input type="radio" value="" name="radiofield" id="check3">
+                <label for="check3">
+                  Radio
+                </label>
+              </div>
+              <div class="input-group">
+                <input type="radio" value="" name="radiofield" id="check4" checked>
+                <label for="check4">
+                  Radio checked
+                </label>
+              </div>
+            </form>
+          </div>
+        </section>
+
+        <footer>
+          <div class="container container-narrow">
+           This is an article &lt;footer&gt;.
+          </div>
+        </footer>
+
+      </article>
+
+      <article>
+      
+        <header>
+          <div class="container">
+            <h2>H2 for another &lt;article&gt;</h2>
+          </div>
+        </header>
+
+        <section>
+          <div class="container container-narrow">
+            <h2>Images</h2>
+            <p>
+              <img src="https://images.pexels.com/photos/838423/pexels-photo-838423.jpeg"
+                alt="image" />
+            </p>
+            <hr>
+            <p>Paragraph after a horizontal rule.</p>
+          </div>
+        </section>
+        
+      </article>
+
+    </main>
+
+    {{ partial "footer.html" . }}
+
+    <script src="/js/main.js" type="text/javascript"></script>
+  </body>
+</html>

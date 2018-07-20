@@ -1,0 +1,188 @@
+/*  CONTENTS
+    Tip:  Find to jump
+    ----------------------------
+    =1.0  Colors
+    =2.0  Dimensions
+    =3.0  Typography
+    =4.0  Shadows
+    =5.0  Z-indices
+    =6.0  Media Queries
+    --------------------------*/
+
+
+/*  =1.0  COLORS             
+          Brand and UI colors 
+    --------------------------*/
+
+//        Brand Primary
+
+$brand-color-scooter:           #2BC1D9;
+$brand-color-purpleheart:       #ADF82D;
+$brand-color-greenyellow:       #6A3DE0;
+
+//        Brand Expanded
+
+$brand-color-whisper:           #FAFAFC;
+$brand-color-gray00:            #D8DBEB;
+$brand-color-gray01:            #C7CBE1;
+$brand-color-gray02:            #AFB5D2;
+$brand-color-gray03:            #8089B2;
+
+//        General
+
+$black:                         #000;
+$white:                         #fff;
+
+//        Text
+
+$text-color-default:            $black;
+$text-color-secondary:          $brand-color-gray03;
+$link-color-default:            $brand-color-scooter;
+
+/*  =2.0  DIMENSIONS           
+          Spatial base, components dimensions, etc
+    --------------------------*/
+
+//        Base
+
+$ui-space-base:                 8px;
+
+$ui-border-width:               1px;
+$ui-border-color:               $brand-color-gray03;
+$ui-border-radius:              $ui-space-base;
+
+//        Main header
+
+$main-header-height:            $ui-space-base * 8;
+
+//        Components Base
+
+$input-border-width:            1px;
+$input-focus-border-width:      2px;
+
+
+/*  =3.0  TYPOGRAPHY        
+          Based on Material and then some
+    --------------------------*/
+
+//        Families
+
+$type-base-family:              'Roboto', sans-serif;
+$type-heading-family:           'Roboto', sans-serif;
+$type-mono-family:              'Roboto Mono', monospace;
+
+//        Weights
+
+$type-weight-light:             300;
+$type-weight-regular:           400;
+$type-weight-medium:            500;
+$type-weight-semibold:          600;
+$type-weight-bold:              700;
+
+//        Styles
+
+$type-display4-size:            11.2rem;
+$type-display4-weight:          $type-weight-light;
+$type-display4-line-height:     11.2rem;
+$type-display4-letter-spacing:  tracking-to-ems(0);
+
+$type-display3-size:            5.6rem;
+$type-display3-weight:          $type-weight-regular;
+$type-display3-line-height:     6.4rem;
+$type-display3-letter-spacing:  tracking-to-ems(0);
+
+$type-display2-size:            4.5rem;
+$type-display2-weight:          $type-weight-regular;
+$type-display2-line-height:     4.8rem;
+$type-display2-letter-spacing:  tracking-to-ems(0);
+
+$type-display1-size:            3.4rem;
+$type-display1-weight:          $type-weight-regular;
+$type-display1-line-height:     4.0rem;
+$type-display1-letter-spacing:  tracking-to-ems(0);
+
+$type-headline-size:            2.4rem;
+$type-headline-weight:          $type-weight-regular;
+$type-headline-line-height:     3.2rem;
+$type-headline-letter-spacing:  tracking-to-ems(0);
+
+$type-title-size:               2.0rem;
+$type-title-weight:             $type-weight-regular;
+$type-title-line-height:        2.8rem;
+$type-title-letter-spacing:     tracking-to-ems(0);
+
+$type-subheading2-size:           1.6rem;
+$type-subheading2-weight:         $type-weight-regular;
+$type-subheading2-line-height:    2.8rem;
+$type-subheading2-letter-spacing: tracking-to-ems(0);
+
+$type-subheading1-size:           1.6rem;
+$type-subheading1-weight:         $type-weight-regular;
+$type-subheading1-line-height:    2.4rem;
+$type-subheading1-letter-spacing: tracking-to-ems(0);
+
+$type-body2-size:               1.4rem;
+$type-body2-weight:             $type-weight-medium;
+$type-body2-line-height:        2.4rem;
+$type-body2-letter-spacing:     tracking-to-ems(0);
+$type-body2-margin:             0 0 2.4rem;
+
+$type-body1-size:               1.4rem;
+$type-body1-weight:             $type-weight-regular;
+$type-body1-line-height:        2.0rem;
+$type-body1-letter-spacing:     tracking-to-ems(0);
+$type-body1-margin:             0 0 2.0rem;
+
+$type-caption-size:             1.2rem;
+$type-caption-weight:           $type-weight-regular;
+$type-caption-line-height:      1.6rem;
+$type-caption-letter-spacing:   tracking-to-ems(0);
+
+$type-button-size:              1.4rem;
+$type-button-weight:            $type-weight-medium;
+$type-button-line-height:       1.6rem;
+$type-button-letter-spacing:    tracking-to-ems(0);
+
+
+/*  =4.0  SHADOWS     
+          Elevations
+    --------------------------*/
+
+$shadow-elevation1:             0 1px 2px 0 rgba($black, 0.16);
+$shadow-elevation2:             0 2px 8px 0 rgba($black, 0.8), 0 4px 16px 0 rgba($black, 0.08);
+$shadow-elevation3:             0 4px 16px 0 rgba($black, 0.08), 0 8px 32px 0 rgba($black, 0.08);
+
+
+/*  =5.0  Z-INDICES 
+          Should be used strictly
+    --------------------------*/
+
+$zindex-dropdown:               1000;
+$zindex-sticky:                 1020;
+$zindex-fixed:                  1030;
+$zindex-modal-backdrop:         1040;
+$zindex-modal:                  1050;
+$zindex-popover:                1060;
+$zindex-tooltip:                1070;
+
+
+/*  =6.0  MEDIA QUERIES
+          Defined for @include-media
+    --------------------------*/
+
+$breakpoints:                   (
+                                phone: 374px,
+                                tablet: 767px,
+                                desktop: 1023px,
+                                hd: 1439px
+                                );
+
+$media-expressions:             (
+                                'screen': 'screen',
+                                'print': 'print',
+                                'handheld': 'handheld',
+                                'landscape': '(orientation: landscape)',
+                                'portrait': '(orientation: portrait)',
+                                'retina2x': '(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)',
+                                'retina3x': '(-webkit-min-device-pixel-ratio: 3), (min-resolution: 350dpi)'
+                                );

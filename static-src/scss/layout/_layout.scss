@@ -1,0 +1,200 @@
+/*  CONTENTS
+    Tip:  Find to jump
+    ----------------------------
+    =1.0  Base
+    =2.0  Branding
+    =3.0  Top-level Sections
+    =4.0  Subsections
+    =5.0  Section-specific
+    --------------------------*/
+
+
+/*  Example hiearchy of layout elements:
+    body
+    └── main
+        ├── header
+        ├── article
+        │   ├── .container
+        │   └── section
+        │       └── .container
+        ├── section
+        │   └── .container
+        └── footer
+*/
+
+
+/*  =1.0  BASE          
+          Base layout and colors
+    --------------------------*/
+
+//        General
+
+body {
+  margin:                       0;
+  padding:                      0;
+  background-color:             $white;
+}
+
+
+/*  =2.0  Branding         
+          Logos and various brand elements
+    --------------------------*/
+
+.main-logo {
+  @include media(">tablet") {
+  }
+}
+
+
+/*  =3.0  TOP-LEVEL SECTIONS      
+          Used to separate logical groups 
+          of contnt at highest level
+    --------------------------*/
+
+body > header,
+body > footer,
+main > section {
+  padding-left:                 $ui-space-base * 3;
+  padding-right:                $ui-space-base * 3;
+  box-sizing:                   border-box;
+
+  @include media(">desktop") {
+    padding-left:               $ui-space-base * 4;
+    padding-right:              $ui-space-base * 4;
+  }
+
+  &.no-padding {
+    padding-left:               0;
+    padding-right:              0;
+  }
+}
+
+main > hr {
+  margin-top:                 $ui-space-base * 4;
+}
+
+body > header {
+  width:                        100%;
+  height:                       $main-header-height;
+  padding:                      0 $ui-space-base;
+  display:                      flex;
+  align-items:                  center;
+  justify-content:              space-between;
+
+  @include media(">tablet") {
+    position:                   static;
+    padding:                    0 $ui-space-base * 2;
+    height:                     $ui-space-base * 10;
+  }
+
+  a, span {
+    padding:                    $ui-space-base;
+
+    @include media(">tablet") {
+      padding:                  $ui-space-base * 2;
+    }
+  }
+}
+
+
+/*  =4.0  SUBSECTIONS  
+          Used for sub-sections within sections
+    --------------------------*/
+
+//        Articles
+
+main {
+  > article > header {}
+  > article > section {}
+  > article > footer {}
+}
+
+//        Containers
+
+.container {
+  max-width:                    map-get($breakpoints, hd);
+  padding-left:                 $ui-space-base * 3;
+  padding-right:                $ui-space-base * 3;
+  padding-top:                  $ui-space-base * 3;
+  padding-bottom:               $ui-space-base * 3;
+  margin-left:                  auto;
+  margin-right:                 auto;
+  
+  @include media(">desktop") {
+    padding-left:               $ui-space-base * 4;
+    padding-right:              $ui-space-base * 4;
+    padding-top:                $ui-space-base * 4;
+    padding-bottom:             $ui-space-base * 4;
+  }
+
+  &.container-narrow {
+    max-width:                  map-get($breakpoints, tablet);
+  }
+
+  &.container-flex {
+    display:                    flex;
+    justify-content:            space-between;
+    align-items:                flex-start;
+    flex-wrap:                  wrap;
+  }
+
+  //      Images in containers
+
+  img {
+    @include media("<tablet") {
+      width:                    100%;
+      height:                   auto;
+    }
+  }
+}
+
+//        Flex Utilities
+
+@for $i from 0 through 5 {
+  .flex-order-#{$i} {
+    order: $i;
+  }
+}
+
+@for $i from 0 through 5 {
+  .flex-grow-#{$i} {
+    flex-grow: $i;
+  }
+}
+
+
+/*  =5.0  SECTION-SPECIFIC         
+          Layout for various sections
+    --------------------------*/
+
+//        Footer
+
+body > footer {
+  height:                       $ui-space-base * 16;
+  display:                      flex;
+  align-items:                  center;
+  align-content:                center;
+  justify-content:              center;
+
+  @include media("<tablet") {
+    height:                     $ui-space-base * 20;
+    padding-bottom:             $ui-space-base * 12;
+  }
+
+  p {
+    margin:                     0;
+  }
+}
+
+
+//        Side Navigation
+
+.side-nav {
+  list-style:                   none;
+  padding-left:                 0;
+
+  a {
+    color:                      $text-color-secondary;
+    line-height:                3.2rem;
+  }
+}
