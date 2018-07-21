@@ -178,6 +178,10 @@ main {
     flex-wrap:                  wrap;
   }
 
+  &.container-fluid {
+    max-width:                  initial;
+  }
+
   //      Images in containers
 
   img {
@@ -211,10 +215,10 @@ main {
 
 .doc-wrapper {
   padding:                      0;
-  height:                   calc(100% - #{$main-header-height});
+  height:                       calc(100% - #{$main-header-height});
 
   @include media(">tablet") {
-    height:                 calc(100% - #{$ui-space-base * 10});
+    height:                     calc(100% - #{$ui-space-base * 10});
   }
 }
 
@@ -228,6 +232,7 @@ main {
 
   @include grid-col(12, 16);
 
+  // It's a drawer on smaller screens
   @include media("<desktop") {
     position:                   absolute;
     top:                        0;
@@ -246,26 +251,28 @@ main {
     @include grid-col(2, 16);
   }
 
+  // Vertical padding for first level menu
+  nav > ul {
+    padding-top:                $ui-space-base * 4;
+    padding-bottom:             $ui-space-base * 4;
+  }
+
   ul {
+    // Hide sub menu by default
     list-style:                 none;
+
     padding:                    0;
     margin:                     0;
 
     ul {
       display:                  none;
     }
-
-    .menu-active ul {
-      display:                  block;
-    }
-  }
-
-  nav > ul {
-    padding-top:                $ui-space-base * 4;
-    padding-bottom:             $ui-space-base * 4;
   }
 
   li {
+    // Relatively positioned for absolutely positioned active indicators
+    position:                   relative;
+
     @include type-subheading1();
 
     a {
@@ -278,10 +285,7 @@ main {
       }
     }
 
-    &.menu-active > a {
-      color:                    $text-color-default;
-    }
-
+    // Sub menus are smaller and shorter
     > ul > li,
     > ul > li > ul > li,
     > ul > li > ul > li > ul > li {
@@ -293,18 +297,43 @@ main {
       }
     }
   }
+
+  // Active indicators
+  .menu-active {
+    &:before {
+      content:                  "";
+      position:                 absolute;
+      width:                    $ui-space-base/2;
+      height:                   $ui-space-base * 6;
+      background-color:         $brand-color-scooter;
+    }
+
+    // Sub menu active indicators are shorter
+    .menu-active:before {
+      height:                   $ui-space-base * 4;
+    }
+
+    > a {
+      color:                    $text-color-default;
+    }
+
+    // Show sub menu only when parent is active
+    ul {
+      display:                  block;
+    }
+  }
 }
 
-.side-nav ~ main {
+//        Main content element (can only have 1)
+
+main {
   height:                       100%;
   overflow:                     auto;
 
+  // Full width on mobile
   @include grid-col(16, 16);
 
-  @include media(">phone") {
-    @include grid-col(16, 16);
-  }
-
+  // Columns on bigger screens
   @include media(">desktop") {
     @include grid-col(13, 16);
   }

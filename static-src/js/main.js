@@ -24,3 +24,11 @@ function removeClass(el, className) {
     el.className = el.className.replace(reg, ' ')
   }
 }
+
+
+// Pjax
+
+var pjax = new Pjax({
+  selectors: ["title", "main", ".side-nav"],
+  scrollTo: false
+})
