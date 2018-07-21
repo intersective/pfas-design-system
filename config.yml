@@ -4,6 +4,7 @@ title: "PFAS Design System"
 paginate: 10
 copyright: "All Rights Reserved"
 params:
+    version: 1.0
     author:
         name: "Aen"
         email: "aen@practera.com"

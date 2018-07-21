@@ -29,6 +29,5 @@ function removeClass(el, className) {
 // Pjax
 
 var pjax = new Pjax({
-  selectors: ["title", "main", ".side-nav"],
-  scrollTo: false
+  selectors: ["title", "main", ".side-nav"]
 })

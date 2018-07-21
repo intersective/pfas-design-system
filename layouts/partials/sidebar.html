@@ -8,7 +8,10 @@
       </li>
       {{ range .Site.Menus.docs }}
       <li class="{{if or ($currentPage.IsMenuCurrent "docs" .) ($currentPage.HasMenuCurrent "docs" .) }}menu-active{{end}}">
-        <a href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+        <a href="{{ .URL }}" title="{{ .Title }}">
+          {{ .Name }}
+          {{ if .HasChildren }}<span class="menu-dropdown"></span>{{ end }}
+        </a>
           {{ if .HasChildren }}
           <ul>
             {{ range .Children }}
@@ -20,87 +23,6 @@
           {{ end }}
       </li>
       {{ end }}
-
-      <!-- <li>
-        <a href="#">Home</a>
-      </li>
-      <li>
-        <a href="#">Getting Started</a>
-      </li>
-      <li>
-        <a href="#">What's New</a>
-      </li>
-      <li>
-        <a href="#">Style</a>
-      </li>
-      <li>
-        <a href="#">Components</a>
-        <ul>
-          <li>
-            <a href="#">Button</a>
-          </li>
-          <li>
-            <a href="#">Card</a>
-          </li>
-          <li>
-            <a href="#">Data Table</a>
-          </li>
-          <li>
-            <a href="#">Datepicker</a>
-          </li>
-          <li>
-            <a href="#">Dropdown</a>
-          </li>
-          <li>
-            <a href="#">File Uploader</a>
-          </li>
-          <li>
-            <a href="#">Link</a>
-          </li>
-          <li>
-            <a href="#">List</a>
-          </li>
-          <li>
-            <a href="#">Modal</a>
-          </li>
-          <li>
-            <a href="#">Notification</a>
-          </li>
-          <li>
-            <a href="#">Pagination</a>
-          </li>
-          <li>
-            <a href="#">Progress and Activity</a>
-          </li>
-          <li>
-            <a href="#">Search</a>
-          </li>
-          <li>
-            <a href="#">Selection</a>
-          </li>
-          <li>
-            <a href="#">Switch</a>
-          </li>
-          <li>
-            <a href="#">Tabs</a>
-          </li>
-          <li>
-            <a href="#">Textfield</a>
-          </li>
-          <li>
-            <a href="#">Tooltip</a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href="#">Data</a>
-      </li>
-      <li>
-        <a href="#">Patterns</a>
-      </li>
-      <li>
-        <a href="#">Resource</a>
-      </li> -->
     </ul>
   </nav>
 

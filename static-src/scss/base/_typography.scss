@@ -39,6 +39,10 @@ p, ul, ol {
   @include type-body1();
 }
 
+.lead {
+  @include type-subheading1();
+}
+
 hr {
   height:                       1px;
   margin:                       0;
@@ -64,10 +68,10 @@ a {
     --------------------------*/
 
 h1 {
-  @include type-display1();
+  @include type-headline();
 
   @include media(">tablet") {
-    @include type-display2();
+    @include type-display1();
   }
 }
 
@@ -76,7 +80,7 @@ h2 {
 }
 
 h3 {
-  @include type-headline();
+  @include type-subheading1();
 }
 
 

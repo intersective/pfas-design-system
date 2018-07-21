@@ -2,7 +2,7 @@
 title: "Progress and Activity"
 menu:
   docs:
-    title: "Card"
+    title: "Progress and Activity"
     weight: 20
-    parent: "Progress and Activity"
+    parent: "Components"
 ---
