@@ -3,6 +3,10 @@ languageCode: "en-us"
 title: "PFAS Design System"
 paginate: 10
 copyright: "All Rights Reserved"
-author:
-    name: "Aen"
-    email: "aen@practera.com"
+params:
+    author:
+        name: "Aen"
+        email: "aen@practera.com"
+    links:
+        github: "https://github.com/aentan/pfas-design-system"
+        slack: "https://intersective.slack.com"
