@@ -17,8 +17,8 @@
 //        Brand Primary
 
 $brand-color-scooter:           #2BC1D9;
-$brand-color-purpleheart:       #ADF82D;
-$brand-color-greenyellow:       #6A3DE0;
+$brand-color-purpleheart:       #6A3DE0;
+$brand-color-greenyellow:       #ADF82D;
 
 //        Brand Expanded
 
@@ -38,6 +38,7 @@ $white:                         #fff;
 $text-color-default:            $black;
 $text-color-secondary:          $brand-color-gray03;
 $link-color-default:            $brand-color-scooter;
+$link-color-secondary:          $brand-color-purpleheart;
 
 /*  =2.0  DIMENSIONS           
           Spatial base, components dimensions, etc
@@ -171,10 +172,10 @@ $zindex-tooltip:                1070;
     --------------------------*/
 
 $breakpoints:                   (
-                                phone: 374px,
-                                tablet: 767px,
-                                desktop: 1023px,
-                                hd: 1439px
+                                phone: 375px,
+                                tablet: 768px,
+                                desktop: 1024px,
+                                hd: 1440px
                                 );
 
 $media-expressions:             (

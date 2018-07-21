@@ -13,7 +13,7 @@
           Base layout and colors
     --------------------------*/
 
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 
@@ -52,6 +52,10 @@ hr {
 a {
   color:                        $link-color-default;
   text-decoration:              none;
+
+  &:hover {
+    color:                      darken($link-color-default, 12%);
+  }
 }
 
 

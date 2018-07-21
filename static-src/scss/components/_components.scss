@@ -231,7 +231,8 @@ form[class^="form-"] {
   @include type-button();
 
   &:hover {
-    background-color:           darken($brand-color-scooter, 16%);
+    color:                      $white;
+    background-color:           darken($brand-color-scooter, 12%);
   }
 
   &.disabled {
