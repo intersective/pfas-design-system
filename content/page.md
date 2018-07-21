@@ -1,4 +1,0 @@
-+++
-title = "Page"
-type = "page"
-+++

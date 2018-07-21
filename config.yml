@@ -1,6 +1,7 @@
 baseURL: "https://pfas.practera.com/"
 languageCode: "en-us"
 title: "PFAS Design System"
+sectionPagesMenu: "docs"
 permalinks:
   post: /:title/
 taxonomies:

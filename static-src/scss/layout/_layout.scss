@@ -261,9 +261,17 @@ main {
     @include type-subheading1();
 
     a {
-      color:                    $text-color-default;
+      color:                    $text-color-secondary;
       display:                  block;
       padding:                  $ui-space-base * 1.5 $ui-space-base * 4;
+
+      &:hover {
+        color:                  $text-color-default;
+      }
+    }
+
+    &.menu-active a {
+      color:                    $text-color-default;
     }
 
     > ul > li,

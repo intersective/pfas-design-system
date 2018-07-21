@@ -2,6 +2,24 @@
 
   <nav>
     <ul>
+      {{ $currentPage := . }}
+      <li class="{{if or ($currentPage.IsHome)}}menu-active{{end}}">
+        <a href="/">Home</a>
+      </li>
+      {{ range .Site.Menus.docs }}
+      <li class="{{if or ($currentPage.IsMenuCurrent "docs" .) ($currentPage.HasMenuCurrent "docs" .) }}menu-active{{end}}">
+        <a href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+          {{ if .HasChildren }}
+          <li class="{{if or ($currentPage.IsMenuCurrent "docs" .) ($currentPage.HasMenuCurrent "docs" .) }}menu-active{{end}}">
+            <a href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+          </li>
+          {{ end }}
+      </li>
+      {{ end }}
+
+      <!-- <li>
+        <a href="#">Home</a>
+      </li>
       <li>
         <a href="#">Getting Started</a>
       </li>
@@ -78,7 +96,7 @@
       </li>
       <li>
         <a href="#">Resource</a>
-      </li>
+      </li> -->
     </ul>
   </nav>
 
