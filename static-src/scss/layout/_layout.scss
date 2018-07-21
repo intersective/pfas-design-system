@@ -250,6 +250,14 @@ main {
     list-style:                 none;
     padding:                    0;
     margin:                     0;
+
+    ul {
+      display:                  none;
+    }
+
+    .menu-active ul {
+      display:                  block;
+    }
   }
 
   nav > ul {
@@ -270,7 +278,7 @@ main {
       }
     }
 
-    &.menu-active a {
+    &.menu-active > a {
       color:                    $text-color-default;
     }
 

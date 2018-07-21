@@ -10,9 +10,13 @@
       <li class="{{if or ($currentPage.IsMenuCurrent "docs" .) ($currentPage.HasMenuCurrent "docs" .) }}menu-active{{end}}">
         <a href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
           {{ if .HasChildren }}
-          <li class="{{if or ($currentPage.IsMenuCurrent "docs" .) ($currentPage.HasMenuCurrent "docs" .) }}menu-active{{end}}">
-            <a href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
-          </li>
+          <ul>
+            {{ range .Children }}
+            <li class="{{if ($currentPage.IsMenuCurrent "docs" .)}}menu-active{{end}}">
+              <a href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+            </li>
+            {{ end }}
+          </ul>
           {{ end }}
       </li>
       {{ end }}
