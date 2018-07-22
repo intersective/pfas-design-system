@@ -3,5 +3,5 @@ title: "Style"
 menu:
   docs:
     title: "Style"
-    weight: 30
+    weight: 40
 ---

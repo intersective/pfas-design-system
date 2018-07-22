@@ -3,5 +3,5 @@ title: "Components"
 menu:
   docs:
     title: "Components"
-    weight: 40
+    weight: 50
 ---

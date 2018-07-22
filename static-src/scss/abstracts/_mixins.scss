@@ -107,6 +107,13 @@
   line-height:                  $type-button-line-height;
 }
 
+@mixin muted-link() {
+  color:                        $text-color-secondary;
+  &:hover {
+    color:                      $text-color-default;
+  }
+}
+
 
 /*  =2.0  GRID SYSTEM   
           Rows, columns and offsets

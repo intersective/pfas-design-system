@@ -81,6 +81,7 @@ main {
 }
 
 body > header {
+  border-bottom:                $ui-border-width solid $ui-border-color;
   width:                        100%;
   height:                       $main-header-height;
   padding:                      0 $ui-space-base * 2;
@@ -100,6 +101,8 @@ body > header {
     @include media(">tablet") {
       padding:                  $ui-space-base * 2;
     }
+
+    @include muted-link();
   }
 
   .branding {
@@ -107,7 +110,7 @@ body > header {
     align-items:                center;
   }
 
-  .menu {
+  .menu-toggle {
     display:                    block;
     padding:                    6px 7px;
     margin-right:               $ui-space-base;
@@ -166,6 +169,13 @@ main {
     padding-right:              $ui-space-base * 2;
     padding-top:                $ui-space-base * 2;
     padding-bottom:             $ui-space-base * 2;
+  }
+
+  @include media(">desktop") {
+    padding-left:               $ui-space-base * 3;
+    padding-right:              $ui-space-base * 3;
+    padding-top:                $ui-space-base * 3;
+    padding-bottom:             $ui-space-base * 3;
   }
 
   &.container-narrow {
@@ -227,6 +237,8 @@ main {
 //        Side Navigation
 
 .side-nav {
+  background-color:             $white;
+  border-right:                 $ui-border-width solid $ui-border-color;
   height:                       100%;
   overflow:                     auto;
 
@@ -251,10 +263,14 @@ main {
     @include grid-col(2, 16);
   }
 
+  &.show-side-nav {
+    right:                      auto;
+  }
+
   // Vertical padding for first level menu
   nav > ul {
-    padding-top:                $ui-space-base * 4;
-    padding-bottom:             $ui-space-base * 4;
+    padding-top:                $ui-space-base * 2;
+    padding-bottom:             $ui-space-base * 2;
   }
 
   ul {
@@ -276,14 +292,11 @@ main {
     @include type-subheading1();
 
     a {
-      color:                    $text-color-secondary;
       display:                  block;
       padding:                  $ui-space-base * 1.5 $ui-space-base * 4;
       position:                 relative;
 
-      &:hover {
-        color:                  $text-color-default;
-      }
+      @include muted-link();
     }
 
     // Sub menus are smaller and shorter
@@ -333,7 +346,7 @@ main {
     }
 
     .menu-dropdown {
-      opacity:                  0.24;
+      opacity:                  0.8;
     }
 
     // Show sub menu only when parent is active
@@ -350,9 +363,6 @@ main {
   height:                       100%;
   overflow:                     auto;
   background-color:             $white;
-  border-top-left-radius:       $ui-space-base;
-  // border-left:                  $brand-color-gray00 solid $ui-border-width;
-  // border-top:                   $brand-color-gray00 solid $ui-border-width;
 
   // Full width on mobile
   @include grid-col(16, 16);
@@ -371,6 +381,12 @@ main {
 //        Hero
 
 .hero {
+  background-color:             $brand-color-whisper;
+  background-image:             url($svg-hero-bg);
+  background-position:          right bottom;
+  background-repeat:            no-repeat;
+  border-bottom:                $ui-border-width solid $ui-border-color;
+
   .container {
     height:                     $ui-space-base * 40;
     align-items:                center;
@@ -396,7 +412,7 @@ main {
 //        Footer
 
 main > footer {
-  height:                       $ui-space-base * 10;
+  height:                       $ui-space-base * 20;
   display:                      flex;
   align-items:                  center;
   align-content:                center;

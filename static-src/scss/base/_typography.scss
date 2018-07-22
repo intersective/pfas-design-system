@@ -37,6 +37,8 @@ body {
 
 p, ul, ol {
   @include type-body1();
+
+  margin:                       $type-body1-line-height * 1.5 0 $type-body1-line-height;
 }
 
 .lead {
@@ -77,10 +79,14 @@ h1 {
 
 h2 {
   @include type-title();
+  
+  margin:                       $type-title-line-height * 1.5 0 $type-title-line-height;
 }
 
 h3 {
   @include type-subheading1();
+
+  margin:                       $type-subheading1-line-height * 1.5 0 $type-subheading1-line-height;
 }
 
 

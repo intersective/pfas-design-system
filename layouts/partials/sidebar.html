@@ -3,9 +3,6 @@
   <nav>
     <ul>
       {{ $currentPage := . }}
-      <li class="{{if or ($currentPage.IsHome)}}menu-active{{end}}">
-        <a href="/">Home</a>
-      </li>
       {{ range .Site.Menus.docs }}
       <li class="{{if or ($currentPage.IsMenuCurrent "docs" .) ($currentPage.HasMenuCurrent "docs" .) }}menu-active{{end}}">
         <a href="{{ .URL }}" title="{{ .Title }}">

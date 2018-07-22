@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>{{ .Title }}</title>
+  <title>{{ .Title }} &ndash; {{ .Site.Params.title }}</title>
   <link href="/css/main.css" rel="stylesheet">
 </head>
 
@@ -20,7 +20,7 @@
     <main>
 
       <section>
-        <div class="container container-fluid">
+        <div class="container container-narrow">
           <h1>{{ .Title }}</h1>
           {{.Content}}
         </div>

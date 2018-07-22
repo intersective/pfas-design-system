@@ -3,5 +3,5 @@ title: "Patterns"
 menu:
   docs:
     title: "Patterns"
-    weight: 60
+    weight: 70
 ---
