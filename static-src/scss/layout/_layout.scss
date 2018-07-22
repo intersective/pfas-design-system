@@ -192,15 +192,6 @@ main {
   &.container-fluid {
     max-width:                  initial;
   }
-
-  //      Images in containers
-
-  img {
-    @include media("<tablet") {
-      width:                    100%;
-      height:                   auto;
-    }
-  }
 }
 
 //        Flex Utilities

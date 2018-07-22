@@ -4,12 +4,12 @@
 {{ $host := (urls.Parse $src).Host }}
 {{ $partial := (partial (printf "%s%s%s" "svg/resource-icon-" $class ".svg" )) }}
 
-<a href="{{ .Get " src " }}" target="_blank" class="resource-card resource-{{ $class }}">
-  <div class="resource-image">
-     {{ $partial }}
-  </div>
-  <div class="resource-text">
+<a href="{{ $src }}" target="_blank" class="resource-card resource-{{ $class }}">
+  <span class="resource-image">
+    {{ $partial }}
+  </span>
+  <span class="resource-text">
     <span class="resource-title">{{ $title }}</span>
     <span class="resource-caption">{{ $host }}</span>
-  </div>
+  </span>
 </a>
