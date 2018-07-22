@@ -7,6 +7,7 @@
     =4.0  Input Fields
     =5.0  Checkboxes and Radio Buttons
     =6.0  Buttons
+    =7.0  Resource Card
     --------------------------*/
 
 
@@ -247,4 +248,44 @@ form[class^="form-"] {
     text-align:                 left;
   }
 
+}
+
+
+/*  =6.0  RESOURCE CARD
+          For external resource links
+    --------------------------*/
+
+.resource-card {
+  border:                       $ui-border-width solid $brand-color-gray00;
+  border-radius:                $ui-space-base;
+  box-shadow:                   $shadow-elevation3;
+  padding:                      $ui-space-base * 2.5;
+  min-width:                    272px;
+  max-width:                    320px;
+  display:                      flex;
+
+  @include text-color-link();
+
+  .resource-image {
+    margin-right:               $ui-space-base * 2;
+    height:                     48px;
+
+    img {
+      display:                  block;
+    }
+  }
+
+  .resource-text {
+    .resource-title {
+      @include type-subheading1();
+
+      line-height:              $type-body1-line-height;
+    }
+    .resource-caption {
+      @include type-caption();
+
+      display:                  block;
+      color:                    $text-color-secondary;
+    }
+  }
 }

@@ -150,9 +150,11 @@ $type-button-letter-spacing:    0.075rem;
           Elevations
     --------------------------*/
 
-$shadow-elevation1:             0 1px 2px 0 rgba($black, 0.16);
-$shadow-elevation2:             0 2px 8px 0 rgba($black, 0.8), 0 4px 16px 0 rgba($black, 0.08);
-$shadow-elevation3:             0 4px 16px 0 rgba($black, 0.08), 0 8px 32px 0 rgba($black, 0.08);
+$ui-shadow-color:               #121751;
+
+$shadow-elevation1:             0 1px 2px 0 rgba($ui-shadow-color, 0.16);
+$shadow-elevation2:             0 2px 8px 0 rgba($ui-shadow-color, 0.8), 0 4px 16px 0 rgba($ui-shadow-color, 0.08);
+$shadow-elevation3:             0 14px 24px 0 rgba($ui-shadow-color, 0.1);
 
 
 /*  =5.0  Z-INDICES 

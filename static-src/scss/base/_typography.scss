@@ -45,6 +45,10 @@ p, ul, ol {
   @include type-subheading1();
 }
 
+.caption {
+  @include type-caption();
+}
+
 hr {
   height:                       1px;
   margin:                       0;

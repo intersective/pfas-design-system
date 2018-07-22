@@ -107,10 +107,17 @@
   line-height:                  $type-button-line-height;
 }
 
-@mixin muted-link() {
+@mixin secondary-color-link() {
   color:                        $text-color-secondary;
   &:hover {
     color:                      $text-color-default;
+  }
+}
+
+@mixin text-color-link() {
+  color:                        $text-color-default;
+  &:hover {
+    color:                      $text-color-secondary;
   }
 }
 

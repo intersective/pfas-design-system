@@ -102,7 +102,7 @@ body > header {
       padding:                  $ui-space-base * 2;
     }
 
-    @include muted-link();
+    @include secondary-color-link();
   }
 
   .branding {
@@ -160,7 +160,7 @@ main {
   padding-left:                 $ui-space-base;
   padding-right:                $ui-space-base;
   padding-top:                  $ui-space-base;
-  padding-bottom:               $ui-space-base;
+  padding-bottom:               $ui-space-base * 3;
   margin-left:                  auto;
   margin-right:                 auto;
   
@@ -168,14 +168,14 @@ main {
     padding-left:               $ui-space-base * 2;
     padding-right:              $ui-space-base * 2;
     padding-top:                $ui-space-base * 2;
-    padding-bottom:             $ui-space-base * 2;
+    padding-bottom:             $ui-space-base * 6;
   }
 
   @include media(">desktop") {
     padding-left:               $ui-space-base * 3;
     padding-right:              $ui-space-base * 3;
     padding-top:                $ui-space-base * 3;
-    padding-bottom:             $ui-space-base * 3;
+    padding-bottom:             $ui-space-base * 9;
   }
 
   &.container-narrow {
@@ -296,7 +296,7 @@ main {
       padding:                  $ui-space-base * 1.5 $ui-space-base * 4;
       position:                 relative;
 
-      @include muted-link();
+      @include secondary-color-link();
     }
 
     // Sub menus are smaller and shorter
@@ -412,6 +412,7 @@ main {
 //        Footer
 
 main > footer {
+  border-top:                   $ui-border-width solid $ui-border-color;
   height:                       $ui-space-base * 20;
   display:                      flex;
   align-items:                  center;
