@@ -289,7 +289,7 @@ main {
     // Relatively positioned for absolutely positioned active indicators
     position:                   relative;
 
-    @include type-subheading1();
+    @include type-body1();
 
     a {
       display:                  block;
@@ -303,7 +303,7 @@ main {
     > ul > li,
     > ul > li > ul > li,
     > ul > li > ul > li > ul > li {
-      @include type-body1();
+      @include type-caption();
 
       a {
         padding:                $ui-space-base * 1.25 $ui-space-base * 4;
