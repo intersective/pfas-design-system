@@ -1,8 +1,9 @@
+{{ $style := .Get "style" }}
 {{ $src := .Get "src" }}
 {{ $number := .Get "number" }}
 {{ $caption := .Get "caption" }}
 
-<figure class="component-figure">
+<figure class="component-figure {{ with $style }}component-{{.}}{{ end }}">
   <div>
     <img src="{{ $src }}" alt="Component" />
     {{ with $number }}

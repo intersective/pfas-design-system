@@ -313,6 +313,14 @@ form[class^="form-"] {
     justify-content:            center;
   }
 
+  &.component-light div {
+    background-color:           $white;
+  }
+
+  &.component-dark div {
+    background-color:           $brand-color-gray02;
+  }
+
   img {
     display:                    block;
     transform:                  scale(0.5);
