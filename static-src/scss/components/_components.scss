@@ -348,3 +348,37 @@ form[class^="form-"] {
     color:                      $text-color-secondary;
   }
 }
+
+
+//        Color Swatch
+
+.color-swatch {
+  box-sizing:                   border-box;
+  border:                       $ui-border-width solid $brand-color-gray00;
+  border-radius:                $ui-space-base;
+  box-shadow:                   $shadow-elevation3;
+  width:                        192px;
+  overflow:                     hidden;
+  display:                      inline-block;
+  margin-right:                 $ui-space-base * 2;
+}
+
+.swatch-color {
+  display:                      block;
+  width:                        192px;
+  height:                       128px;
+}
+
+.swatch-details {
+  padding:                      $ui-space-base $ui-space-base * 2.5 $ui-space-base * 2.5;
+}
+
+.swatch-name {
+  @include type-body2();
+}
+
+.swatch-label {
+  display:                      block;
+
+  @include type-caption();
+}
