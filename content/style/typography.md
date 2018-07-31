@@ -76,3 +76,7 @@ R = responsive, i.e. use smaller desktop variant when viewing on larger desktop 
 | Body 2 (desktop) | Roboto | Medium | 13 | 24 |  |  | ✔︎ | R |  |
 | Body 1 | Roboto | Regular | 14 | 20 | ✔︎ | ✔︎ |  | R | ✔︎ |
 | Body 1 (desktop) | Roboto | Regular | 13 | 20 |  |  | ✔︎ | R |  |
+
+## Resources
+
+{{< resource-card class="material" src="https://material.io/design/typography/" title="Typography Guidelines">}}

@@ -265,6 +265,8 @@ form[class^="form-"] {
   min-width:                    272px;
   max-width:                    400px;
   display:                      flex;
+  margin-right:                 $ui-space-base * 2;
+  margin-bottom:                $ui-space-base * 2;
 
   @include text-color-link();
 
