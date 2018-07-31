@@ -27,7 +27,7 @@ hugo
 
 echo "Updating gh-pages branch"
 cd public
-echo pfasds.aenism.com >> CNAME
+echo practera.design >> CNAME
 git add --all
 git commit -m "Publishing to gh-pages (deploy.sh)"
 
