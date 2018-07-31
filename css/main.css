@@ -516,7 +516,7 @@ body {
   color: #000;
 }
 
-p, ul, ol {
+p, ul, ol, table {
   font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
@@ -564,6 +564,28 @@ a {
 
 a:hover {
   color: #1e95a9;
+}
+
+table {
+  border: 1px solid #C7CBE1;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 8px 16px;
+  border: 1px solid #C7CBE1;
+}
+
+table th:not([align="right"]), table th:not([align="center"]), table td:not([align="right"]), table td:not([align="center"]) {
+  text-align: left;
+}
+
+table th[align="right"], table td[align="right"] {
+  text-align: right;
+}
+
+table th[align="center"], table td[align="center"] {
+  text-align: center;
 }
 
 /*  =4.0  HEADINGS
