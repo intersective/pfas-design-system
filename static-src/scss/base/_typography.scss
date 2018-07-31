@@ -35,7 +35,7 @@ body {
   color:                        $text-color-default;
 }
 
-p, ul, ol {
+p, ul, ol, table {
   @include type-body1();
 
   margin:                       $type-body1-line-height * 1.5 0 $type-body1-line-height;
@@ -72,6 +72,29 @@ a {
 
   &:hover {
     color:                      darken($link-color-default, 12%);
+  }
+}
+
+table {
+  border:                       $ui-border-width solid $ui-border-color;
+  border-collapse:              collapse;
+
+  th, td {
+    padding:                    $ui-space-base $ui-space-base * 2;
+    border:                     $ui-border-width solid $ui-border-color;
+
+    &:not([align="right"]),
+    &:not([align="center"]) {
+      text-align:               left;
+    }
+
+    &[align="right"] {
+      text-align:               right;
+    }
+
+    &[align="center"] {
+      text-align:               center;
+    }
   }
 }
 
