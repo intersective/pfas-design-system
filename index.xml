@@ -101,7 +101,8 @@ Although iOS and Android have their own interface nuances, they have converged s
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://pfas.practera.com/getting-started/</guid>
-      <description></description>
+      <description>Overview Intersective designers use a variety of tools to facilitate a collaborative workflow. These include:
+ Mock-up with Sketch Mood-boarding and flow prototyping with Invision Behavior prototyping in Principle, Flinto or Origami Animation in Adobe After Effects and Haiku Documentation and research captured in Atlassian, G Suite and Coda Shared storage in Dropbox Team communication in Slack and Zoom  Note: Make sure you have been properly onboarded and have access to all the above tools and software.</description>
     </item>
     
     <item>
@@ -275,7 +276,9 @@ Fonts Roboto Roboto has a dual nature. It has a mechanical skeleton and the form
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://pfas.practera.com/style/writing/</guid>
-      <description></description>
+      <description> Text should be understandable by anyone, anywhere, regardless of their culture or language.
+Consult Material Design for guidelines.
+Resources resource-icon-materialWriting Guidelinesmaterial.io </description>
     </item>
     
   </channel>

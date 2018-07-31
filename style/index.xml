@@ -48,7 +48,9 @@ Fonts Roboto Roboto has a dual nature. It has a mechanical skeleton and the form
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://pfas.practera.com/style/writing/</guid>
-      <description></description>
+      <description> Text should be understandable by anyone, anywhere, regardless of their culture or language.
+Consult Material Design for guidelines.
+Resources resource-icon-materialWriting Guidelinesmaterial.io </description>
     </item>
     
   </channel>

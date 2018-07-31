@@ -1600,6 +1600,8 @@ form[class^="form-"]:last-child {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin-right: 16px;
+  margin-bottom: 16px;
   color: #000;
 }
 
