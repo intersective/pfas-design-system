@@ -22,6 +22,10 @@
       <section>
         <div class="container container-narrow">
           <h1>{{ .Title }}</h1>
+          {{ if .Params.toc  }}
+            {{ partial "toc.html" . }}
+            <hr>
+          {{ end }}
           {{.Content}}
         </div>
       </section>

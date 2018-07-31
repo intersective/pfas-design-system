@@ -5,6 +5,7 @@ menu:
     title: "Colors"
     weight: 10
     parent: "Style"
+toc: true
 ---
 
 The Practera brand uses a primary color palette and an additional expanded palette for domain-specific applications.
@@ -27,6 +28,8 @@ The colors in the primary palette is used in all applications, including print a
   In graphic design, adjacent colors are good choices to use together because they harmonize with one another and work well together.
 {{% /image-figure %}}
 
+---
+
 ## Expanded Palette
 
 Colors in the various expanded palette augment the primary palette to provide domain-specific enhancements.
@@ -44,6 +47,8 @@ Additional colors in this palette provides improved contrast, usability and legi
 {{< color-swatch name="Gray 02" hex="#AFB5D2" rgb="RGB(175, 181, 210)">}}
 
 {{< color-swatch name="Gray 03" hex="#8089B2" rgb="RGB(128, 137, 178)">}}
+
+---
 
 ## Resources
 

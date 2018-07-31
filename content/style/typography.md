@@ -5,6 +5,7 @@ menu:
     title: "Typography"
     weight: 10
     parent: "Style"
+toc: true
 ---
 
 The PFAS type system borrows heavily from the default Material Design type system. Besides the specific nuances described below, consult the Material Design typography guidelines for what you should do when it comes to setting type.
@@ -26,6 +27,8 @@ Roboto is used in all web and mobile UI, including iOS.
 Merriweather was designed to be a text face that is pleasant to read on screens. It features a very large x height, slightly condensed letterforms, a mild diagonal stress, sturdy serifs and open forms.
 
 Merriweather is used on the web (non-UI) and in print, primarily for headings.
+
+---
 
 ## Platform-universal Typography
 
@@ -53,6 +56,8 @@ On top of the Material Design styles, an additional style with Merriweather is u
 
 ![Merriweather headings](/img/style/typography/merriweather-headings.png.png)
 
+---
+
 ## Full Typography Table
 
 dp = device-independent pixels (Android) and points (iOS).<br>
@@ -76,6 +81,8 @@ R = responsive, i.e. use smaller desktop variant when viewing on larger desktop 
 | Body 2 (desktop) | Roboto | Medium | 13 | 24 |  |  | ✔︎ | R |  |
 | Body 1 | Roboto | Regular | 14 | 20 | ✔︎ | ✔︎ |  | R | ✔︎ |
 | Body 1 (desktop) | Roboto | Regular | 13 | 20 |  |  | ✔︎ | R |  |
+
+---
 
 ## Resources
 

@@ -5,7 +5,10 @@ menu:
     title: "Button"
     weight: 10
     parent: "Components"
+toc: true
 ---
+
+Buttons are:
 
 - Used for triggering actions
 - Labels are always upper case
@@ -13,7 +16,9 @@ menu:
 - Use icon or label, not both
 - Use color wisely to add usability
 
-## Basic
+## Basic Buttons
+
+Use basic buttons for _non-call-to-action_ actions.
 
 {{< component-figure src="/img/components/button/primary.png" >}}
   Primary: Used for primary actions.
@@ -35,13 +40,11 @@ menu:
   Link: For going somewhere rather than doing something.
 {{< /component-figure >}}
 
-## Icon-only
+---
 
-{{< component-figure src="/img/components/button/icon.png" >}}
-  Icon: Only for actions that well-understood, like Add, Delete, Compose, Close, etc. Should be colored Red for destructive actions. Do not mix icons and text in the same button.
-{{< /component-figure >}}
+## Large Buttons
 
-## Large
+Large buttons are reserved for the primary _call-to-action_ in a single view. There should only be one call-to-action in a single view.
 
 {{< component-figure src="/img/components/button/large primary.png" >}}
   Primary: Used for primary call-to-action.
@@ -54,6 +57,20 @@ menu:
 {{< component-figure src="/img/components/button/large light.png" style="dark" >}}
   Light: Adapted from Default Button, with a light background (i.e. white) for dark interfaces.
 {{< /component-figure >}}
+
+---
+
+## Icon-only Buttons
+
+Only for actions that well-understood, like Add, Delete, Compose, Close, etc. Do not mix icons and text in the same button.
+
+Icons for destructive actions such as Delete should be colored red.
+
+{{< component-figure src="/img/components/button/icon.png" >}}
+  Icon
+{{< /component-figure >}}
+
+---
 
 ## Resources
 

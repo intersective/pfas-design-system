@@ -5,6 +5,7 @@ menu:
     title: "Icons"
     weight: 10
     parent: "Style"
+toc: true
 ---
 
 Practera UI icons uses bold geometric shapes to visually represent core ideas, capabilities, or topics with as little complexity as possible.
@@ -23,6 +24,8 @@ Material Design icons are used in both Android and iOS. When custom icons are ne
   Keyline shapes are the foundation of the grid. By using these core shapes as guidelines, you can maintain consistent visual proportions across system icons. 
 {{% /image-figure %}}
 
+---
+
 ## Custom Icons
 
 The Material Design icon set does not and cannot provide all the icons that we will ever need. The PFAS icon set contains custom icons that are specific to the topic experiential learning and Practera, which are not available elsewhere.
@@ -32,6 +35,8 @@ The Material Design icon set does not and cannot provide all the icons that we w
 {{< /component-figure >}}
 
 If you need to create additional custom icons, design them according the Material Design icon grid and keylines. Remember to also add them to the icon Sketch library (referenced below).
+
+---
 
 ## Resources
 

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="45px" viewBox="0 0 48 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>resource-icon-dropbox</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="resource-icon-dropbox" transform="translate(0.000000, -2.000000)" fill-rule="nonzero">
+            <rect id="Rectangle-5" x="0" y="0" width="48" height="48"></rect>
+            <path d="M24,28.033255 L14.1195,36.34573 L0,27.053538 L9.7635,19.17347 L23.999971,28.033238 L38.2362,19.172109 L47.9997,27.05369 L33.8802,36.345881 L23.9997,28.033406 L24,28.033255 Z M14.1198,2 L0.0003,11.292191 L9.7638,19.17226 L24.0003,10.312475 L14.1198,2 Z M24.02895,29.821692 L14.11995,38.109976 L9.87945,35.318993 L9.87945,38.447132 L24.02895,47 L38.17845,38.447132 L38.17845,35.318993 L33.93795,38.109976 L24.02895,29.821692 Z M48,11.292343 L33.8805,2.000151 L24,10.312626 L38.2365,19.172411 L48,11.292343 Z" id="Dropbox" fill="#0F82E2"></path>
+        </g>
+    </g>
+</svg>

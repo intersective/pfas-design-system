@@ -1,0 +1,27 @@
+{{ $headers := findRE "<h[1-2].*?>(.|\n])+?</h[1-2]>" .Content }}
+{{ $has_headers := ge (len $headers) 1 }}
+{{ $show_toc := (eq $.Params.toc true) }}
+{{ if and $has_headers $show_toc }}
+<nav class="toc">
+  {{ range $headers }}
+    {{ $header := . }}
+    {{ range first 1 (findRE "<h[1-2]" $header 1) }}
+      {{ range findRE "[1-2]" . 1 }}
+        {{ $next_heading := (int .) }}
+        {{ range seq $next_heading }}
+        <ul class="toc-h{{ . }}">
+        {{end}}
+        {{ $base := ($.Page.File.LogicalName) }}
+        {{ $anchorId := ($header | plainify | htmlEscape | urlize) }}
+        {{ $href := delimit (slice $base $anchorId) "#" | string }}
+        <a href="{{ relref $.Page $href }}">
+          <li>{{ $header | plainify | htmlEscape }}</li>
+        </a>
+        {{ range seq $next_heading }}
+        </ul>
+        {{end}}
+      {{end}}
+    {{end}}
+  {{ end }}
+</nav>
+{{ end }}

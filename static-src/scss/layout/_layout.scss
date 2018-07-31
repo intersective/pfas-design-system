@@ -235,7 +235,7 @@ main {
 
   @include grid-col(12, 16);
 
-  // It's a drawer on smaller screens
+  //      It's a drawer on smaller screens
   @include media("<desktop") {
     position:                   absolute;
     top:                        0;
@@ -258,14 +258,14 @@ main {
     right:                      auto;
   }
 
-  // Vertical padding for first level menu
+  //      Vertical padding for first level menu
   nav > ul {
     padding-top:                $ui-space-base * 2;
     padding-bottom:             $ui-space-base * 2;
   }
 
   ul {
-    // Hide sub menu by default
+    //    Hide sub menu by default
     list-style:                 none;
 
     padding:                    0;
@@ -277,7 +277,7 @@ main {
   }
 
   li {
-    // Relatively positioned for absolutely positioned active indicators
+    //    Relatively positioned for absolutely positioned active indicators
     position:                   relative;
 
     @include type-body1();
@@ -290,7 +290,7 @@ main {
       @include secondary-color-link();
     }
 
-    // Sub menus are smaller and shorter
+    //    Sub menus are smaller and shorter
     > ul > li,
     > ul > li > ul > li,
     > ul > li > ul > li > ul > li {
@@ -317,7 +317,7 @@ main {
   }
 
 
-  // Active indicators
+  //      Active indicators
   .menu-active {
     &:before {
       content:                  "";
@@ -412,5 +412,22 @@ main > footer {
 
   p {
     margin:                     0;
+  }
+}
+
+
+//        Table of Contents
+
+.toc {
+  margin-top:                   $ui-space-base * 6;
+
+  ul, li {
+    padding:                    0;
+    margin:                     0;
+    list-style:                 none;
+  }
+
+  a {
+    color:                      $text-color-secondary;
   }
 }

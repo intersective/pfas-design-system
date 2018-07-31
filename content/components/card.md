@@ -5,14 +5,17 @@ menu:
     title: "Card"
     weight: 20
     parent: "Components"
+toc: true
 ---
+
+Cards are:
 
 - Used for displaying tasks in student app
 - Titles should be in title-case
 - Short and succinct titles preferred
 - Use color wisely to add usability
 
-## Plain
+## Plain Cards
 
 {{< component-figure src="/img/components/card/plain.png" >}}
   Default: The default usually is the most effective
@@ -26,7 +29,9 @@ menu:
   Colored (dark): When branding, use a dark card for dark background
 {{< /component-figure >}}
 
-## Image
+---
+
+## Image Cards
 
 {{< component-figure src="/img/components/card/image.png" >}}
   Default: Use a dark card and ensure image is dark enough for readable text
@@ -39,6 +44,8 @@ menu:
 {{< component-figure src="/img/components/card/image tinted.png" >}}
   Tint: Works best with low-contrast, medium-brightness images.
 {{< /component-figure >}}
+
+---
 
 ## Resources
 

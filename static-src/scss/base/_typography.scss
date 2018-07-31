@@ -98,6 +98,18 @@ table {
   }
 }
 
+code {
+  border-radius:                $ui-space-base / 2;
+  padding:                      $ui-space-base / 4 $ui-space-base / 2;
+  margin:                       0 $ui-space-base / 4;
+  background-color:             $brand-color-whisper;
+  border:                       1px solid $brand-color-gray00;
+  
+  @include type-caption;
+
+  font-family:                  $type-mono-family;
+}
+
 
 /*  =4.0  HEADINGS
           Should correspond to MD styles
