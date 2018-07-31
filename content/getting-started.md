@@ -10,7 +10,7 @@ menu:
 
 Intersective designers use a variety of tools to facilitate a collaborative workflow. These include:
 
-- Mock-up with Sketch
+- Mock-up with [Sketch]
 - Mood-boarding and flow prototyping with Invision
 - Behavior prototyping in Principle, Flinto or Origami
 - Animation in Adobe After Effects and Haiku
@@ -28,7 +28,7 @@ Download and install [Sketch](https://www.sketchapp.com/). Obtain company licens
 
 {{< resource-card class="sketch" src="https://www.sketchapp.com/" title="Sketch App">}}
 
-{{< resource-card src="https://sketchrunner.com/" title="Sketchrunner Plugin">}}
+{{< resource-card class="sketchrunner" src="https://sketchrunner.com/" title="Sketchrunner Plugin">}}
 
 ### 2. Install Invision Craft
 
@@ -36,7 +36,13 @@ Download and install [Invision Craft](https://www.invisionapp.com/craft). Then u
 
 {{< resource-card class="craft" src="https://www.invisionapp.com/craft" title="Invision Craft">}}
 
-### 3. Install essential plugins
+### 3. Install PFAS Tools
+
+[PFAS Tools](https://github.com/aentan/pfas-tools) is an internally-developed Sketch plugin that contains utilities that help speed up your work when designing Practera interfaces.
+
+{{< resource-card class="github" src="https://github.com/aentan/pfas-tools" title="PFAS Tools">}}
+
+### 4. Install essential plugins
 
 These plugins are crucial in our workflow. Install them manually or with Sketch Runner (recommended).
 

@@ -6,7 +6,7 @@
 <a href="{{ $src }}" target="_blank" class="resource-card{{ with $class }} resource-{{.}}{{ end }}">
   <span class="resource-image">
     {{ if .Get "class" }}
-    {{ (partial (printf "%s%s%s" "svg/resource-icon-" $class ".svg" )) }}
+    {{ partial (printf "%s%s%s" "svg/resource-icon-" $class ".svg" ) }}
     {{ end }}
   </span>
   <span class="resource-text">
