@@ -361,6 +361,7 @@ form[class^="form-"] {
   overflow:                     hidden;
   display:                      inline-block;
   margin-right:                 $ui-space-base * 2;
+  margin-bottom:                $ui-space-base * 2;
 }
 
 .swatch-color {
@@ -381,4 +382,47 @@ form[class^="form-"] {
   display:                      block;
 
   @include type-caption();
+}
+
+
+//        Image Figures
+
+.image-figure {
+  box-sizing:                   border-box;
+  border:                       $ui-border-width solid $brand-color-gray00;
+  border-radius:                $ui-space-base;
+  box-shadow:                   $shadow-elevation3;
+  margin:                       $ui-space-base * 4 0;
+  display:                      flex;
+
+  @include media(">desktop") {
+    flex-wrap:                  wrap;
+  }
+
+  div {
+    display:                    flex;
+    align-items:                center;
+    align-content:              center;
+    padding:                    $ui-space-base * 8;
+    box-sizing:                 border-box;
+
+    @include media(">desktop") {
+      max-width:                50%;
+    }
+
+    img {
+      display:                  block;
+    }
+  }
+
+  figcaption {
+    padding:                    0 $ui-space-base * 4;
+    box-sizing:                 border-box;
+
+    @include type-caption();
+
+    @include media(">desktop") {
+      max-width:                50%;
+    }
+  }
 }
