@@ -17,7 +17,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://pfas.practera.com/components/button/</guid>
-      <description>Used for triggering actions Labels are always upper case Short and succinct labels preferred Use icon or label, not both Use color wisely to add usability  Basic Primary: Used for primary actions.  Default: Standard Button for most uses.  Light: Adapted from Default Button, with a light background (i.e. white) for dark interfaces.  Danger: For destructive actions.</description>
+      <description>Buttons are:
+ Used for triggering actions Labels are always upper case Short and succinct labels preferred Use icon or label, not both Use color wisely to add usability  Basic Buttons Use basic buttons for non-call-to-action actions.
+Primary: Used for primary actions.  Default: Standard Button for most uses.  Light: Adapted from Default Button, with a light background (i.</description>
     </item>
     
     <item>
@@ -26,7 +28,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://pfas.practera.com/components/card/</guid>
-      <description>Used for displaying tasks in student app Titles should be in title-case Short and succinct titles preferred Use color wisely to add usability  Plain Default: The default usually is the most effective  Colored (light): When branding, use a light card for light background  Colored (dark): When branding, use a dark card for dark background  Image Default: Use a dark card and ensure image is dark enough for readable text  Text-protection: Text-protection using a black gradient is necessary if image is too light  Tint: Works best with low-contrast, medium-brightness images.</description>
+      <description>Cards are:
+ Used for displaying tasks in student app Titles should be in title-case Short and succinct titles preferred Use color wisely to add usability  Plain Cards Default: The default usually is the most effective  Colored (light): When branding, use a light card for light background  Colored (dark): When branding, use a dark card for dark background  Image Cards Default: Use a dark card and ensure image is dark enough for readable text  Text-protection: Text-protection using a black gradient is necessary if image is too light  Tint: Works best with low-contrast, medium-brightness images.</description>
     </item>
     
     <item>

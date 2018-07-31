@@ -588,6 +588,21 @@ table th[align="center"], table td[align="center"] {
   text-align: center;
 }
 
+code {
+  -webkit-border-radius: 4px;
+          border-radius: 4px;
+  padding: 2px 4px;
+  margin: 0 2px;
+  background-color: #FAFAFC;
+  border: 1px solid #D8DBEB;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 2rem;
+  font-family: "Roboto Mono", monospace;
+}
+
 /*  =4.0  HEADINGS
           Should correspond to MD styles
     --------------------------*/
@@ -1198,6 +1213,20 @@ main > footer {
 
 main > footer p {
   margin: 0;
+}
+
+.toc {
+  margin-top: 48px;
+}
+
+.toc ul, .toc li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.toc a {
+  color: #8089B2;
 }
 
 /*  CONTENTS
