@@ -44,3 +44,7 @@ Additional colors in this palette provides improved contrast, usability and legi
 {{< color-swatch name="Gray 02" hex="#AFB5D2" rgb="RGB(175, 181, 210)">}}
 
 {{< color-swatch name="Gray 03" hex="#8089B2" rgb="RGB(128, 137, 178)">}}
+
+## Resources
+
+{{< resource-card class="sketch" src="https://www.dropbox.com/s/atyw97cedr9y1yp/Intersective%20Colors.sketch?dl=0" title="Colors Sketch Library">}}

@@ -49,6 +49,13 @@ p, ul, ol {
   @include type-caption();
 }
 
+p img {
+  display:                      block;
+  // transform:                    scale(0.5);
+  max-width:                    100%;
+  height:                       auto;
+}
+
 hr {
   height:                       1px;
   margin:                       $ui-space-base * 8 0;
