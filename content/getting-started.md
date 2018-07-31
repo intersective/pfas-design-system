@@ -11,13 +11,14 @@ toc: true
 
 Intersective designers use a variety of tools to facilitate a collaborative workflow. These include:
 
-- Mock-up with [Sketch]
-- Mood-boarding and flow prototyping with Invision
-- Behavior prototyping in Principle, Flinto or Origami
-- Animation in Adobe After Effects and Haiku
-- Documentation and research captured in Atlassian, G Suite and Coda
-- Shared storage in Dropbox
-- Team communication in Slack and Zoom
+- Mock-up with [Sketch](https://www.sketchapp.com/)
+- Mood-boarding and flow prototyping with [Invision](https://www.invisionapp.com/)
+- Behavior prototyping in [Principle](http://principleformac.com/), [Flinto](https://www.flinto.com/) or [Origami](https://origami.design/)/[Quartz Composer](https://en.wikipedia.org/wiki/Quartz_Composer)
+- Animation in [Adobe After Effects](https://www.adobe.com/products/aftereffects.html) and [Haiku](https://www.haiku.ai/)
+- Documentation and research captured in [Atlassian](https://www.atlassian.com/) and [G Suite](https://gsuite.google.com/)
+- Shared storage in [Dropbox](https://www.dropbox.com/)
+- Team communication in [Slack](https://slack.com/) and [Zoom](https://zoom.us/)
+- Ideas management in [Aha](https://practera.ideas.aha.io/)
 
 Note: Make sure you have been properly onboarded and have access to all the above tools and software. Talk to the person you report to.
 
