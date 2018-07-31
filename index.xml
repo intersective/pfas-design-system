@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on PFAS Design System</title>
+    <link>https://pfas.practera.com/</link>
+    <description>Recent content in Home on PFAS Design System</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>All Rights Reserved</copyright>
+    
+	<atom:link href="https://pfas.practera.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Button</title>
+      <link>https://pfas.practera.com/components/button/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/button/</guid>
+      <description>Used for triggering actions Labels are always upper case Short and succinct labels preferred Use icon or label, not both Use color wisely to add usability  Basic Primary: Used for primary actions.  Default: Standard Button for most uses.  Light: Adapted from Default Button, with a light background (i.e. white) for dark interfaces.  Danger: For destructive actions.</description>
+    </item>
+    
+    <item>
+      <title>Card</title>
+      <link>https://pfas.practera.com/components/card/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/card/</guid>
+      <description>Used for displaying tasks in student app Titles should be in title-case Short and succinct titles preferred Use color wisely to add usability  Plain Default: The default usually is the most effective  Colored (light): When branding, use a light card for light background  Colored (dark): When branding, use a dark card for dark background  Image Default: Use a dark card and ensure image is dark enough for readable text  Text-protection: Text-protection using a black gradient is necessary if image is too light  Tint: Works best with low-contrast, medium-brightness images.</description>
+    </item>
+    
+    <item>
+      <title>Colors</title>
+      <link>https://pfas.practera.com/style/colors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/style/colors/</guid>
+      <description>The Practera brand uses a primary color palette and an additional expanded palette for domain-specific applications.
+Primary Palette The colors in the primary palette is used in all applications, including print and digital.
+Scooter#2BC1D9RGB(43, 193, 217)CMYK(67, 0, 14, 0) Green Yellow#ADF82DRGB(173, 248, 45)CMYK(30, 0, 82, 3) Purple Heart#6A3DE0RGB(106, 61, 224)CMYK(53, 73, 0, 12) Color Theory The Secondary and Accent colors in the palette are 60° Adjacent/Analogous from the Primary color on the color wheel.</description>
+    </item>
+    
+    <item>
+      <title>Components</title>
+      <link>https://pfas.practera.com/components/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data</title>
+      <link>https://pfas.practera.com/data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Table</title>
+      <link>https://pfas.practera.com/components/data-table/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/data-table/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Date Picker</title>
+      <link>https://pfas.practera.com/components/date-picker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/date-picker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dropdown</title>
+      <link>https://pfas.practera.com/components/dropdown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/dropdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>File Upload</title>
+      <link>https://pfas.practera.com/components/file-upload/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/file-upload/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Getting Started</title>
+      <link>https://pfas.practera.com/getting-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/getting-started/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Icons</title>
+      <link>https://pfas.practera.com/style/icons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/style/icons/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>List</title>
+      <link>https://pfas.practera.com/components/list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/list/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modal</title>
+      <link>https://pfas.practera.com/components/modal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/modal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Notification</title>
+      <link>https://pfas.practera.com/components/notification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/notification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pagination</title>
+      <link>https://pfas.practera.com/components/pagination/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/pagination/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Patterns</title>
+      <link>https://pfas.practera.com/patterns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/patterns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Progress and Activity</title>
+      <link>https://pfas.practera.com/components/progress-and-activity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/progress-and-activity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resources</title>
+      <link>https://pfas.practera.com/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/resources/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scrollspy</title>
+      <link>https://pfas.practera.com/components/scrollspy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/scrollspy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>https://pfas.practera.com/components/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Selection</title>
+      <link>https://pfas.practera.com/components/selection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/selection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Style</title>
+      <link>https://pfas.practera.com/style/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/style/</guid>
+      <description>PFAS is on one hand a design and on the other, a visual language. It is a unique set of elements thoughtfully engineered to represent the values and personality of the Practera brand.
+These guidelines are set up to introduce you to the identity elements and best-practices to help inspire and excite you as you move forward in creating Practera communications.</description>
+    </item>
+    
+    <item>
+      <title>Switch</title>
+      <link>https://pfas.practera.com/components/switch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/switch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tabs</title>
+      <link>https://pfas.practera.com/components/tabs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/tabs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Textfield</title>
+      <link>https://pfas.practera.com/components/textfield/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/textfield/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tooltip</title>
+      <link>https://pfas.practera.com/components/tooltip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/tooltip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Typography</title>
+      <link>https://pfas.practera.com/style/typography/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/style/typography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What’s New</title>
+      <link>https://pfas.practera.com/whats-new/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/whats-new/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Writing</title>
+      <link>https://pfas.practera.com/style/writing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/style/writing/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
