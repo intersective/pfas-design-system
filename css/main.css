@@ -541,6 +541,12 @@ p, ul, ol {
   line-height: 2rem;
 }
 
+p img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 hr {
   height: 1px;
   margin: 64px 0;
