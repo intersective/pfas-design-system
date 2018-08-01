@@ -325,7 +325,8 @@ form[class^="form-"] {
 
   img {
     display:                    block;
-    transform:                  scale(0.5);
+    max-width:                  100%;
+    height:                     auto;
   }
 
   .figure-label {
