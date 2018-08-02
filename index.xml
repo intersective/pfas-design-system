@@ -233,7 +233,9 @@ These guidelines are set up to introduce you to the identity elements and best-p
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://pfas.practera.com/components/tabs/</guid>
-      <description></description>
+      <description>Tabs organize content across different screens, data sets, and other interactions.
+Tabs are:
+ Used to organize and allow navigation between groups of content Tabbed content that are related and at the same level of hierarchy Labels should be short and succinct Always be in a single row Aligned to the bottom of its parent container  Text Tabs Text tabs should almost always be used in web/desktop interfaces.</description>
     </item>
     
     <item>

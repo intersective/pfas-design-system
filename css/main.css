@@ -1709,9 +1709,8 @@ form[class^="form-"]:last-child {
 
 .component-figure img {
   display: block;
-  -webkit-transform: scale(0.5);
-      -ms-transform: scale(0.5);
-          transform: scale(0.5);
+  max-width: 100%;
+  height: auto;
 }
 
 .component-figure .figure-label {
