@@ -66,7 +66,7 @@ Text fields can be white or light gray depending on the background color of thei
 
 ---
 
-### Examples
+## Examples
 
 Here are some examples of various types of text fields you can construct using the system.
 
