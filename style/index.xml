@@ -1,57 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Styles on PFAS Design System</title>
-    <link>https://pfas.practera.com/style/</link>
-    <description>Recent content in Styles on PFAS Design System</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>All Rights Reserved</copyright>
-    
-	<atom:link href="https://pfas.practera.com/style/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Colors</title>
-      <link>https://pfas.practera.com/style/colors/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://pfas.practera.com/style/colors/</guid>
-      <description>The Practera brand uses a primary color palette and an additional expanded palette for domain-specific applications.
-Primary Palette The colors in the primary palette is used in all applications, including print and digital.
-Scooter#2BC1D9RGB(43, 193, 217)CMYK(67, 0, 14, 0) Green Yellow#ADF82DRGB(173, 248, 45)CMYK(30, 0, 82, 3) Purple Heart#6A3DE0RGB(106, 61, 224)CMYK(53, 73, 0, 12) Color Theory The Secondary and Accent colors in the palette are 60° Adjacent/Analogous from the Primary color on the color wheel.</description>
-    </item>
-    
-    <item>
-      <title>Icons</title>
-      <link>https://pfas.practera.com/style/icons/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://pfas.practera.com/style/icons/</guid>
-      <description>Practera UI icons uses bold geometric shapes to visually represent core ideas, capabilities, or topics with as little complexity as possible.
-UI Icons A UI icon symbolizes a command, file, device, or directory. UI icons are also used to represent common actions performed within Practera. The design of our UI icons is simple, modern, friendly, and sometimes quirky. Each icon is reduced to its minimal form, with every idea edited to its essence.</description>
-    </item>
-    
-    <item>
-      <title>Typography</title>
-      <link>https://pfas.practera.com/style/typography/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://pfas.practera.com/style/typography/</guid>
-      <description>The PFAS type system borrows heavily from the default Material Design type system. Besides the specific nuances described below, consult the Material Design typography guidelines for what you should do when it comes to setting type.
-Fonts Roboto Roboto has a dual nature. It has a mechanical skeleton and the forms are largely geometric. At the same time, the font features friendly and open curves. While some grotesks distort their letterforms to force a rigid rhythm, Roboto doesn’t compromise, allowing letters to be settled into their natural width.</description>
-    </item>
-    
-    <item>
-      <title>Writing</title>
-      <link>https://pfas.practera.com/style/writing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://pfas.practera.com/style/writing/</guid>
-      <description> Text should be understandable by anyone, anywhere, regardless of their culture or language.
-Consult Material Design for guidelines.
-Resources resource-icon-materialWriting Guidelinesmaterial.io </description>
-    </item>
-    
-  </channel>
-</rss>
