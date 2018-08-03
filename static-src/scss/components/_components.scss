@@ -59,14 +59,13 @@ form[class^="form-"] {
 .input-group {
   .label {
     // Default is focused
-    font-size:                  1.4rem;
+    font-size:                  1.2rem;
     font-weight:                $type-weight-medium;
-    background-color:           $white;
-    padding:                    0 $ui-space-base / 2;
+    line-height:                1.6rem;
     // Other styles
     position:                   absolute;
-    left:                       13px;
-    top:                        -13px;
+    left:                       16px;
+    top:                        8px;
     cursor:                     text;
     transition:                 all .2s ease;
   }
@@ -87,9 +86,9 @@ form[class^="form-"] {
     width:                      100%;
     box-sizing:                 border-box;
     font-size:                  inherit;
-    background-color:           $white;
-    padding:                    $ui-space-base * 1.5 $ui-space-base * 2;
-    border:                     $input-border-width solid $text-color-secondary;
+    background-color:           $brand-color-whisper;
+    border:                     0;
+    padding:                    $ui-space-base * 2;
     border-radius:              $ui-border-radius;
     outline:                    none;
     appearance:                 none;
@@ -99,30 +98,30 @@ form[class^="form-"] {
     margin-bottom:              0;
 
     &::placeholder {
-      color:                    $text-color-secondary;
+      color:                    $brand-color-gray02;
       opacity:                  1;
       transition:               all .2s;
     }
 
     &:placeholder-shown:not(:focus)::placeholder {
-      opacity: 0;
+      opacity:                  0;
     }
 
     &:placeholder-shown:not(:focus) {
       + .label {
         font-size:              inherit;
         font-weight:            inherit;
+        line-height:            2.4rem;
         color:                  $text-color-secondary;
         left:                   0;
         top:                    0;
-        padding:                $ui-space-base * 1.5 $ui-space-base * 2;
+        padding:                $ui-space-base * 2;
         background-color:       transparent;
       }
     }
 
     &:focus {
-      padding:                  (($ui-space-base * 1.5) - 1) (($ui-space-base * 2) - 1);
-      border:                   $input-focus-border-width solid $brand-color-scooter;
+      padding:                  $ui-space-base * 3 $ui-space-base * 2 $ui-space-base;
 
       + .label {
         color:                  $brand-color-scooter;

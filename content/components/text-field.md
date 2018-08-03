@@ -85,3 +85,26 @@ Here are some examples of various types of text fields you can construct using t
 {{< component-figure src="/img/components/text-field/height-weight.png" >}}
   Height and weight fields with suffix
 {{< /component-figure >}}
+
+---
+
+## Demo
+
+The label shrinks and moves upwards when the text field is focused, revealing the hint text.
+
+### Try it
+
+<div class="input-group">
+  <label for="demofield">
+    <input id="demofield" type="text" placeholder="Hint" />
+    <span class="label">Label</span>
+  </label>
+</div>
+
+--- 
+
+## Resources
+
+{{< resource-card class="invision" src="https://projects.invisionapp.com/d/main#/console/14912436/312449374/inspect" title="Handoff and Assets" >}}
+
+{{< resource-card class="material" src="https://material.io/design/components/text-fields.html" title="Text Field Guidelines">}}
