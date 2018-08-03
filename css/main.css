@@ -1290,13 +1290,12 @@ form[class^="form-"]:last-child {
 /*  =3.0  LABELS        
     --------------------------*/
 .input-group .label {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 500;
-  background-color: #fff;
-  padding: 0 4px;
+  line-height: 1.6rem;
   position: absolute;
-  left: 13px;
-  top: -13px;
+  left: 16px;
+  top: 8px;
   cursor: text;
   -webkit-transition: all .2s ease;
   -o-transition: all .2s ease;
@@ -1315,9 +1314,9 @@ form[class^="form-"]:last-child {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-size: inherit;
-  background-color: #fff;
-  padding: 12px 16px;
-  border: 1px solid #8089B2;
+  background-color: #FAFAFC;
+  border: 0;
+  padding: 16px;
   -webkit-border-radius: 8px;
           border-radius: 8px;
   outline: none;
@@ -1338,7 +1337,7 @@ form[class^="form-"]:last-child {
 .input-group input[type="search"]::-webkit-input-placeholder,
 .input-group input[type="number"]::-webkit-input-placeholder,
 .input-group select::-webkit-input-placeholder {
-  color: #8089B2;
+  color: #AFB5D2;
   opacity: 1;
   -webkit-transition: all .2s;
   -o-transition: all .2s;
@@ -1351,7 +1350,7 @@ form[class^="form-"]:last-child {
 .input-group input[type="search"]::-moz-placeholder,
 .input-group input[type="number"]::-moz-placeholder,
 .input-group select::-moz-placeholder {
-  color: #8089B2;
+  color: #AFB5D2;
   opacity: 1;
   -webkit-transition: all .2s;
   -o-transition: all .2s;
@@ -1364,7 +1363,7 @@ form[class^="form-"]:last-child {
 .input-group input[type="search"]:-ms-input-placeholder,
 .input-group input[type="number"]:-ms-input-placeholder,
 .input-group select:-ms-input-placeholder {
-  color: #8089B2;
+  color: #AFB5D2;
   opacity: 1;
   -webkit-transition: all .2s;
   -o-transition: all .2s;
@@ -1377,7 +1376,7 @@ form[class^="form-"]:last-child {
 .input-group input[type="search"]::-ms-input-placeholder,
 .input-group input[type="number"]::-ms-input-placeholder,
 .input-group select::-ms-input-placeholder {
-  color: #8089B2;
+  color: #AFB5D2;
   opacity: 1;
   -webkit-transition: all .2s;
   -o-transition: all .2s;
@@ -1390,7 +1389,7 @@ form[class^="form-"]:last-child {
 .input-group input[type="search"]::placeholder,
 .input-group input[type="number"]::placeholder,
 .input-group select::placeholder {
-  color: #8089B2;
+  color: #AFB5D2;
   opacity: 1;
   -webkit-transition: all .2s;
   -o-transition: all .2s;
@@ -1450,10 +1449,11 @@ form[class^="form-"]:last-child {
 .input-group select:placeholder-shown:not(:focus) + .label {
   font-size: inherit;
   font-weight: inherit;
+  line-height: 2.4rem;
   color: #8089B2;
   left: 0;
   top: 0;
-  padding: 12px 16px;
+  padding: 16px;
   background-color: transparent;
 }
 
@@ -1463,8 +1463,7 @@ form[class^="form-"]:last-child {
 .input-group input[type="search"]:focus,
 .input-group input[type="number"]:focus,
 .input-group select:focus {
-  padding: 11px 15px;
-  border: 2px solid #2BC1D9;
+  padding: 24px 16px 8px;
 }
 
 .input-group input[type="text"]:focus + .label,
