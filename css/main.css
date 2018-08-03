@@ -1293,6 +1293,7 @@ form[class^="form-"]:last-child {
   font-size: 1.2rem;
   font-weight: 500;
   line-height: 1.6rem;
+  color: #AFB5D2;
   position: absolute;
   left: 16px;
   top: 8px;
@@ -1316,7 +1317,7 @@ form[class^="form-"]:last-child {
   font-size: inherit;
   background-color: #FAFAFC;
   border: 0;
-  padding: 16px;
+  padding: 24px 16px 8px;
   -webkit-border-radius: 8px;
           border-radius: 8px;
   outline: none;
