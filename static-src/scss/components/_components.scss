@@ -62,6 +62,7 @@ form[class^="form-"] {
     font-size:                  1.2rem;
     font-weight:                $type-weight-medium;
     line-height:                1.6rem;
+    color:                      $brand-color-gray02;
     // Other styles
     position:                   absolute;
     left:                       16px;
@@ -88,7 +89,7 @@ form[class^="form-"] {
     font-size:                  inherit;
     background-color:           $brand-color-whisper;
     border:                     0;
-    padding:                    $ui-space-base * 2;
+    padding:                    $ui-space-base * 3 $ui-space-base * 2 $ui-space-base;
     border-radius:              $ui-border-radius;
     outline:                    none;
     appearance:                 none;
