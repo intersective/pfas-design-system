@@ -161,12 +161,15 @@ Tabs are:
     </item>
     
     <item>
-      <title>Textfield</title>
-      <link>https://pfas.practera.com/components/textfield/</link>
+      <title>Text Field</title>
+      <link>https://pfas.practera.com/components/text-field/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pfas.practera.com/components/textfield/</guid>
-      <description></description>
+      <guid>https://pfas.practera.com/components/text-field/</guid>
+      <description>Text fields let users enter and edit text.
+Text fields:
+ Should stand out and indicate that users can input information Should have distinct states Should make it easy to understand the requested information and to address any errors  Anatomy A text field consists of essential and optional building blocks.
+Use leading and trailing icons only in cases where they are required or will greatly enhance usability. Overuse of leading and trailing icons will cause the fields to appear unnecessarily busy.</description>
     </item>
     
     <item>

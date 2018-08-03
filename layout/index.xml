@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Layouts on PFAS Design System</title>
+    <link>https://pfas.practera.com/layout/</link>
+    <description>Recent content in Layouts on PFAS Design System</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>All Rights Reserved</copyright>
+    
+	<atom:link href="https://pfas.practera.com/layout/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Spacing Methods</title>
+      <link>https://pfas.practera.com/layout/spacing-methods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/layout/spacing-methods/</guid>
+      <description>Spacing methods use baseline grids, keylines, padding, and incremental spacing to affect ratios, containers, and touch targets.
+Consult Material Design for guidelines on spacing.
+resource-icon-materialSpacing Methodsmaterial.io </description>
+    </item>
+    
+    <item>
+      <title>Whiteframes</title>
+      <link>https://pfas.practera.com/layout/whiteframes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/layout/whiteframes/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Card &ndash; PFAS Design System</title>
+  <title>Text Field &ndash; PFAS Design System</title>
   <link href="/css/main.css" rel="stylesheet">
 </head>
 
@@ -122,7 +122,7 @@
               <a href="/components/button/" title="Button">Button</a>
             </li>
             
-            <li class="menu-active">
+            <li class="">
               <a href="/components/card/" title="Card">Card</a>
             </li>
             
@@ -182,7 +182,7 @@
               <a href="/components/tabs/" title="Tabs">Tabs</a>
             </li>
             
-            <li class="">
+            <li class="menu-active">
               <a href="/components/text-field/" title="Text Field">Text Field</a>
             </li>
             
@@ -227,7 +227,7 @@
 
       <section>
         <div class="container container-narrow">
-          <h1>Card</h1>
+          <h1>Text Field</h1>
           
             
 
@@ -247,8 +247,8 @@
         
         
         
-        <a href="/components/card/#plain-cards">
-          <li>Plain Cards</li>
+        <a href="/components/text-field/#anatomy">
+          <li>Anatomy</li>
         </a>
         
         </ul>
@@ -270,8 +270,8 @@
         
         
         
-        <a href="/components/card/#image-cards">
-          <li>Image Cards</li>
+        <a href="/components/text-field/#color">
+          <li>Color</li>
         </a>
         
         </ul>
@@ -293,8 +293,8 @@
         
         
         
-        <a href="/components/card/#resources">
-          <li>Resources</li>
+        <a href="/components/text-field/#states">
+          <li>States</li>
         </a>
         
         </ul>
@@ -310,16 +310,21 @@
           
           
 
-<p>Cards are:</p>
+<p>Text fields let users enter and edit text.</p>
+
+<p>Text fields:</p>
 
 <ul>
-<li>Used for displaying tasks in student app</li>
-<li>Titles should be in title-case</li>
-<li>Short and succinct titles preferred</li>
-<li>Use color wisely to add usability</li>
+<li>Should stand out and indicate that users can input information</li>
+<li>Should have distinct states</li>
+<li>Should make it easy to understand the requested information and to address any errors</li>
 </ul>
 
-<h2 id="plain-cards">Plain Cards</h2>
+<h2 id="anatomy">Anatomy</h2>
+
+<p>A text field consists of essential and optional building blocks.</p>
+
+<p>Use leading and trailing icons only in cases where they are required or will greatly enhance usability. Overuse of leading and trailing icons will cause the fields to appear unnecessarily busy.</p>
 
 
 
@@ -328,53 +333,21 @@
 
 <figure class="component-figure ">
   <div>
-    <img src="/img/components/card/plain.png" alt="Component" />
+    <img src="/img/components/text-field/anatomy.png" alt="Component" />
     
   </div>
   <figcaption>
     
-  Default: The default usually is the most effective
-
-  </figcaption>
-</figure>
-
-
-
-
-
-
-<figure class="component-figure ">
-  <div>
-    <img src="/img/components/card/plain%20colored%20light.png" alt="Component" />
-    
-  </div>
-  <figcaption>
-    
-  Colored (light): When branding, use a light card for light background
-
-  </figcaption>
-</figure>
-
-
-
-
-
-
-<figure class="component-figure ">
-  <div>
-    <img src="/img/components/card/plain%20colored%20dark.png" alt="Component" />
-    
-  </div>
-  <figcaption>
-    
-  Colored (dark): When branding, use a dark card for dark background
+  From left to right: leading icon, label text, input text, trailing icon, suffix (not shown), helper text
 
   </figcaption>
 </figure>
 
 <hr />
 
-<h2 id="image-cards">Image Cards</h2>
+<h2 id="color">Color</h2>
+
+<p>Text fields can be white or light gray depending on the background color of their parent containers.</p>
 
 
 
@@ -383,12 +356,12 @@
 
 <figure class="component-figure ">
   <div>
-    <img src="/img/components/card/image.png" alt="Component" />
+    <img src="/img/components/text-field/enabled%20on%20whisper.png" alt="Component" />
     
   </div>
   <figcaption>
     
-  Default: Use a dark card and ensure image is dark enough for readable text
+  White text field on Whisper background
 
   </figcaption>
 </figure>
@@ -398,55 +371,180 @@
 
 
 
-<figure class="component-figure ">
+<figure class="component-figure component-light">
   <div>
-    <img src="/img/components/card/image%20protected.png" alt="Component" />
+    <img src="/img/components/text-field/enabled%20on%20white.png" alt="Component" />
     
   </div>
   <figcaption>
     
-  Text-protection: Text-protection using a black gradient is necessary if image is too light
-
-  </figcaption>
-</figure>
-
-
-
-
-
-
-<figure class="component-figure ">
-  <div>
-    <img src="/img/components/card/image%20tinted.png" alt="Component" />
-    
-  </div>
-  <figcaption>
-    
-  Tint: Works best with low-contrast, medium-brightness images.
+  Whisper text field on White background
 
   </figcaption>
 </figure>
 
 <hr />
 
-<h2 id="resources">Resources</h2>
+<h2 id="states">States</h2>
 
 
 
 
 
 
-<a href="https://projects.invisionapp.com/d/main#/console/14912436/311596487/inspect" target="_blank" class="resource-card resource-invision">
-  <span class="resource-image">
+<figure class="component-figure ">
+  <div>
+    <img src="/img/components/text-field/enabled%20on%20whisper.png" alt="Component" />
     
-    <svg height="48" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg"><path d="M43.649 0A4.351 4.351 0 0 1 48 4.351V43.65A4.351 4.351 0 0 1 43.649 48H4.35A4.351 4.351 0 0 1 0 43.649V4.35A4.351 4.351 0 0 1 4.351 0H43.65zM16.042 15.102c1.595 0 2.932-1.25 2.932-2.89 0-1.638-1.337-2.888-2.932-2.888-1.596 0-2.932 1.25-2.932 2.888 0 1.64 1.336 2.89 2.932 2.89zm-6.08 15.473a9.932 9.932 0 0 0-.26 2.17c0 2.545 1.38 4.234 4.313 4.234 2.432 0 4.404-1.444 5.823-3.776l-.867 3.479h4.83l2.76-11.07c.69-2.803 2.026-4.258 4.053-4.258 1.595 0 2.587.992 2.587 2.63 0 .475-.043.992-.216 1.553l-1.423 5.088a7.648 7.648 0 0 0-.301 2.156c0 2.416 1.422 4.182 4.398 4.182 2.544 0 4.57-1.637 5.692-5.562l-1.897-.732c-.95 2.629-1.769 3.104-2.415 3.104-.647 0-.992-.43-.992-1.293 0-.388.086-.818.215-1.337l1.38-4.957c.345-1.164.475-2.196.475-3.145 0-3.708-2.243-5.643-4.96-5.643-2.543 0-5.13 2.294-6.424 4.71l.948-4.335h-7.373l-1.035 3.818h3.45l-2.124 8.505c-1.669 3.708-4.733 3.768-5.118 3.682-.631-.142-1.035-.382-1.035-1.203 0-.473.086-1.153.302-1.973l3.234-12.83H9.79l-1.035 3.819h3.407z" fill="#ff2a63"/></svg>
+  </div>
+  <figcaption>
     
-  </span>
-  <span class="resource-text">
-    <span class="resource-title">Handoff and Assets</span>
-    <span class="resource-caption">projects.invisionapp.com</span>
-  </span>
-</a>
+  Enabled
+
+  </figcaption>
+</figure>
+
+
+
+
+
+
+<figure class="component-figure ">
+  <div>
+    <img src="/img/components/text-field/disabled.png" alt="Component" />
+    
+  </div>
+  <figcaption>
+    
+  Disabled
+
+  </figcaption>
+</figure>
+
+
+
+
+
+
+<figure class="component-figure ">
+  <div>
+    <img src="/img/components/text-field/active.png" alt="Component" />
+    
+  </div>
+  <figcaption>
+    
+  Active
+
+  </figcaption>
+</figure>
+
+
+
+
+
+
+<figure class="component-figure ">
+  <div>
+    <img src="/img/components/text-field/filled.png" alt="Component" />
+    
+  </div>
+  <figcaption>
+    
+  Filled
+
+  </figcaption>
+</figure>
+
+
+
+
+
+
+<figure class="component-figure ">
+  <div>
+    <img src="/img/components/text-field/error.png" alt="Component" />
+    
+  </div>
+  <figcaption>
+    
+  Error
+
+  </figcaption>
+</figure>
+
+<hr />
+
+<h3 id="examples">Examples</h3>
+
+<p>Here are some examples of various types of text fields you can construct using the system.</p>
+
+
+
+
+
+
+<figure class="component-figure ">
+  <div>
+    <img src="/img/components/text-field/password.png" alt="Component" />
+    
+  </div>
+  <figcaption>
+    
+  Password field with masking toggle and password rules.
+
+  </figcaption>
+</figure>
+
+
+
+
+
+
+<figure class="component-figure ">
+  <div>
+    <img src="/img/components/text-field/username.png" alt="Component" />
+    
+  </div>
+  <figcaption>
+    
+  Username field with availability checker
+
+  </figcaption>
+</figure>
+
+
+
+
+
+
+<figure class="component-figure ">
+  <div>
+    <img src="/img/components/text-field/search.png" alt="Component" />
+    
+  </div>
+  <figcaption>
+    
+  Search field with leading icon
+
+  </figcaption>
+</figure>
+
+
+
+
+
+
+<figure class="component-figure ">
+  <div>
+    <img src="/img/components/text-field/height-weight.png" alt="Component" />
+    
+  </div>
+  <figcaption>
+    
+  Height and weight fields with suffix
+
+  </figcaption>
+</figure>
 
         </div>
       </section>

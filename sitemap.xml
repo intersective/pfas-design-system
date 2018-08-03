@@ -61,6 +61,15 @@
   </url>
   
   <url>
+    <loc>https://pfas.practera.com/layout/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pfas.practera.com/layout/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://pfas.practera.com/components/list/</loc>
   </url>
   
@@ -101,6 +110,10 @@
   </url>
   
   <url>
+    <loc>https://pfas.practera.com/layout/spacing-methods/</loc>
+  </url>
+  
+  <url>
     <loc>https://pfas.practera.com/style/</loc>
   </url>
   
@@ -123,7 +136,7 @@
   </url>
   
   <url>
-    <loc>https://pfas.practera.com/components/textfield/</loc>
+    <loc>https://pfas.practera.com/components/text-field/</loc>
   </url>
   
   <url>
@@ -136,6 +149,10 @@
   
   <url>
     <loc>https://pfas.practera.com/whats-new/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pfas.practera.com/layout/whiteframes/</loc>
   </url>
   
   <url>

@@ -119,6 +119,16 @@ UI Icons A UI icon symbolizes a command, file, device, or directory. UI icons ar
     </item>
     
     <item>
+      <title>Layout</title>
+      <link>https://pfas.practera.com/layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/layout/</guid>
+      <description>PFAS layouts share Material Design principles. The following pages will guide you in creating mobile, web app and website layouts that are consistent, visually appealing and structurally sound.
+Principles  UIs should use intuitive and predictable layouts, with consistent UI regions and spatial organization Layouts should use a consistent grid, keylines, and padding Layouts are adaptive and react to input from the user, device, and screen elements  Structure Like Material Design layouts, PFAS layouts should be visually balanced.</description>
+    </item>
+    
+    <item>
       <title>List</title>
       <link>https://pfas.practera.com/components/list/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -209,6 +219,17 @@ UI Icons A UI icon symbolizes a command, file, device, or directory. UI icons ar
     </item>
     
     <item>
+      <title>Spacing Methods</title>
+      <link>https://pfas.practera.com/layout/spacing-methods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/layout/spacing-methods/</guid>
+      <description>Spacing methods use baseline grids, keylines, padding, and incremental spacing to affect ratios, containers, and touch targets.
+Consult Material Design for guidelines on spacing.
+resource-icon-materialSpacing Methodsmaterial.io </description>
+    </item>
+    
+    <item>
       <title>Style</title>
       <link>https://pfas.practera.com/style/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -239,12 +260,15 @@ Tabs are:
     </item>
     
     <item>
-      <title>Textfield</title>
-      <link>https://pfas.practera.com/components/textfield/</link>
+      <title>Text Field</title>
+      <link>https://pfas.practera.com/components/text-field/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pfas.practera.com/components/textfield/</guid>
-      <description></description>
+      <guid>https://pfas.practera.com/components/text-field/</guid>
+      <description>Text fields let users enter and edit text.
+Text fields:
+ Should stand out and indicate that users can input information Should have distinct states Should make it easy to understand the requested information and to address any errors  Anatomy A text field consists of essential and optional building blocks.
+Use leading and trailing icons only in cases where they are required or will greatly enhance usability. Overuse of leading and trailing icons will cause the fields to appear unnecessarily busy.</description>
     </item>
     
     <item>
@@ -272,6 +296,15 @@ Fonts Roboto Roboto has a dual nature. It has a mechanical skeleton and the form
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://pfas.practera.com/whats-new/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Whiteframes</title>
+      <link>https://pfas.practera.com/layout/whiteframes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/layout/whiteframes/</guid>
       <description></description>
     </item>
     
