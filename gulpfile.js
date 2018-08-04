@@ -9,7 +9,7 @@ var gulp         = require("gulp"),
 
 gulp.task("img", function () {
   // del(["static/img/**/*"])
-  gulp.src("static-src/img/**/*")
+  gulp.src("assets/img/**/*")
     .pipe(cache(imagemin()))
     .pipe(gulp.dest("static/img"))
 })
@@ -17,7 +17,7 @@ gulp.task("img", function () {
 // SVG
 gulp.task("svg", function () {
   del(["static/svg/**/*"])
-  gulp.src("static-src/svg/**/*")
+  gulp.src("assets/svg/**/*")
     .pipe(cache(svgmin()))
     .pipe(gulp.dest("layouts/partials/svg"))
 })
@@ -25,16 +25,16 @@ gulp.task("svg", function () {
 // Compile SCSS files to CSS
 gulp.task("svg-data", function () {
   // Clean SVG data
-  gulp.src("static-src/scss/abstracts/_svg-data.scss", { base: "." })
+  gulp.src("assets/scss/abstracts/_svg-data.scss", { base: "." })
     .pipe(replace('#', '%23'))
     .pipe(gulp.dest("./"))
 })
 
 // Watch asset folder for changes
 gulp.task("watch", ["img", "svg", "svg-data"], function () {
-  gulp.watch("static-src/img/**/*", ["img"])
-  gulp.watch(["static-src/svg/**/*", "!static-src/scss/abstracts/_svg-data.scss"], ["svg"])
-  gulp.watch("static-src/scss/abstracts/_svg-data.scss", ["svg-data"])
+  gulp.watch("assets/img/**/*", ["img"])
+  gulp.watch(["assets/svg/**/*", "!static-src/scss/abstracts/_svg-data.scss"], ["svg"])
+  gulp.watch("assets/scss/abstracts/_svg-data.scss", ["svg-data"])
 })
 
 // Set watch as default task

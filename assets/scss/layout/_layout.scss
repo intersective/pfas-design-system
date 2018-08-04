@@ -325,6 +325,8 @@ main {
       width:                    $ui-space-base/2;
       height:                   $ui-space-base * 6;
       background-color:         $brand-color-scooter;
+      border-top-right-radius:  $ui-space-base;
+      border-bottom-right-radius: $ui-space-base;
     }
 
     // Sub menu active indicators are shorter

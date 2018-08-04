@@ -350,6 +350,13 @@ form[class^="form-"] {
     margin-top:                 $ui-space-base;
     color:                      $text-color-secondary;
   }
+
+  p, ol, ul {
+    margin:                     0;
+  }
+  ol, ul {
+    padding-left:               $ui-space-base * 3;
+  }
 }
 
 
