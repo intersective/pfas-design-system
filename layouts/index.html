@@ -6,7 +6,7 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>{{ .Title }} &ndash; {{ .Site.Params.title }}</title>
-    {{ $style := resources.Get "scss/main.scss" | toCSS | postCSS | minify | fingerprint }}
+    {{ $style := resources.Get "css/main.scss" | toCSS | postCSS | minify | fingerprint }}
     <link href="{{ $style.Permalink }}" rel="stylesheet">
   </head>
   <body>
