@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on PFAS Design System</title>
-    <link>https://pfas.practera.com/tags/</link>
+    <link>https://practera.design/tags/</link>
     <description>Recent content in Tags on PFAS Design System</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>All Rights Reserved</copyright>
     
-	<atom:link href="https://pfas.practera.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://practera.design/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
