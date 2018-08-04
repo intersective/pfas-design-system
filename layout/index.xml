@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Layouts on PFAS Design System</title>
+    <link>https://pfas.practera.com/layout/</link>
+    <description>Recent content in Layouts on PFAS Design System</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>All Rights Reserved</copyright>
+    
+	<atom:link href="https://pfas.practera.com/layout/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Spacing Methods</title>
+      <link>https://pfas.practera.com/layout/spacing-methods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/layout/spacing-methods/</guid>
+      <description>Spacing methods use baseline grids, keylines, padding, and incremental spacing to affect ratios, containers, and touch targets.
+Consult Material Design for guidelines on spacing.
+resource-icon-materialSpacing Methodsmaterial.io </description>
+    </item>
+    
+    <item>
+      <title>Tablet and Desktop</title>
+      <link>https://pfas.practera.com/layout/tablet-and-desktop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/layout/tablet-and-desktop/</guid>
+      <description>PFAS layout whiteframes illustrates how layouts are constructed and serve as a starting point for constructing and adapting to your application-specific layouts. Use the following whiteframes to design layouts for tablet-sized or larger applications.
+Whiteframe The standard tablet/desktop whiteframe is a 12-column layout with 96dp margins and 16dp gutters.
+Text is left-aligned to the left-most column with certain parent containers overhanging into the margins. As shown here, the Practera logo, back navigation button and padding of form fields overhang into the margin, to allow text to be flushed left.</description>
+    </item>
+    
+  </channel>
+</rss>

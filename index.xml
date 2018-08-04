@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on PFAS Design System</title>
+    <link>https://pfas.practera.com/</link>
+    <description>Recent content in Home on PFAS Design System</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>All Rights Reserved</copyright>
+    
+	<atom:link href="https://pfas.practera.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Button</title>
+      <link>https://pfas.practera.com/components/button/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/button/</guid>
+      <description>Buttons are:
+ Used for triggering actions Labels are always upper case Short and succinct labels preferred Use icon or label, not both Use color wisely to add usability  Basic Buttons Use basic buttons for non-call-to-action actions.
+Primary: Used for primary actions.  Default: Standard Button for most uses.  Light: Adapted from Default Button, with a light background (i.</description>
+    </item>
+    
+    <item>
+      <title>Card</title>
+      <link>https://pfas.practera.com/components/card/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/card/</guid>
+      <description>Cards are:
+ Used for displaying tasks in student app Titles should be in title-case Short and succinct titles preferred Use color wisely to add usability  Plain Cards Default: The default usually is the most effective  Colored (light): When branding, use a light card for light background  Colored (dark): When branding, use a dark card for dark background  Image Cards Default: Use a dark card and ensure image is dark enough for readable text  Text-protection: Text-protection using a black gradient is necessary if image is too light  Tint: Works best with low-contrast, medium-brightness images.</description>
+    </item>
+    
+    <item>
+      <title>Colors</title>
+      <link>https://pfas.practera.com/style/colors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/style/colors/</guid>
+      <description>The Practera brand uses a primary color palette and an additional expanded palette for domain-specific applications.
+Primary Palette The colors in the primary palette is used in all applications, including print and digital.
+Scooter#2BC1D9RGB(43, 193, 217)CMYK(67, 0, 14, 0) Green Yellow#ADF82DRGB(173, 248, 45)CMYK(30, 0, 82, 3) Purple Heart#6A3DE0RGB(106, 61, 224)CMYK(53, 73, 0, 12) Color Theory The Secondary and Accent colors in the palette are 60° Adjacent/Analogous from the Primary color on the color wheel.</description>
+    </item>
+    
+    <item>
+      <title>Components</title>
+      <link>https://pfas.practera.com/components/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/</guid>
+      <description>PFAS components are shared across all platforms – mobile (iOS and Android) and web. The advantage of a single design language across all platforms allows us to save time and effort by designing only once.
+Although iOS and Android have their own interface nuances, they have converged significantly over the past couple of years as it has became clear what effective UI elements should look and work. The visual differences are now only skin-deep.</description>
+    </item>
+    
+    <item>
+      <title>Data</title>
+      <link>https://pfas.practera.com/data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Table</title>
+      <link>https://pfas.practera.com/components/data-table/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/data-table/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Date Picker</title>
+      <link>https://pfas.practera.com/components/date-picker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/date-picker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dropdown</title>
+      <link>https://pfas.practera.com/components/dropdown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/dropdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>File Upload</title>
+      <link>https://pfas.practera.com/components/file-upload/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/file-upload/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Getting Started</title>
+      <link>https://pfas.practera.com/getting-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/getting-started/</guid>
+      <description>Overview Intersective designers use a variety of tools to facilitate a collaborative workflow. These include:
+ Mock-up with Sketch Mood-boarding and flow prototyping with Invision Behavior prototyping in Principle, Flinto or Origami/Quartz Composer Animation in Adobe After Effects and Haiku Documentation and research captured in Atlassian and G Suite Shared storage in Dropbox Team communication in Slack and Zoom Ideas management in Aha  Note: Make sure you have been properly onboarded and have access to all the above tools and software.</description>
+    </item>
+    
+    <item>
+      <title>Icons</title>
+      <link>https://pfas.practera.com/style/icons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/style/icons/</guid>
+      <description>Practera UI icons uses bold geometric shapes to visually represent core ideas, capabilities, or topics with as little complexity as possible.
+UI Icons A UI icon symbolizes a command, file, device, or directory. UI icons are also used to represent common actions performed within Practera. The design of our UI icons is simple, modern, friendly, and sometimes quirky. Each icon is reduced to its minimal form, with every idea edited to its essence.</description>
+    </item>
+    
+    <item>
+      <title>Layout</title>
+      <link>https://pfas.practera.com/layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/layout/</guid>
+      <description>PFAS layouts share Material Design principles. The following pages will guide you in creating mobile, web app and website layouts that are consistent, visually appealing and structurally sound.
+Principles  UIs should use intuitive and predictable layouts, with consistent UI regions and spatial organization Layouts should use a consistent grid, keylines, and padding Layouts are adaptive and react to input from the user, device, and screen elements  Structure Like Material Design layouts, PFAS layouts should be visually balanced.</description>
+    </item>
+    
+    <item>
+      <title>List</title>
+      <link>https://pfas.practera.com/components/list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/list/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modal</title>
+      <link>https://pfas.practera.com/components/modal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/modal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Notification</title>
+      <link>https://pfas.practera.com/components/notification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/notification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pagination</title>
+      <link>https://pfas.practera.com/components/pagination/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/pagination/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Patterns</title>
+      <link>https://pfas.practera.com/patterns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/patterns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Progress and Activity</title>
+      <link>https://pfas.practera.com/components/progress-and-activity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/progress-and-activity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resources</title>
+      <link>https://pfas.practera.com/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/resources/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scrollspy</title>
+      <link>https://pfas.practera.com/components/scrollspy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/scrollspy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>https://pfas.practera.com/components/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Selection</title>
+      <link>https://pfas.practera.com/components/selection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/selection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spacing Methods</title>
+      <link>https://pfas.practera.com/layout/spacing-methods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/layout/spacing-methods/</guid>
+      <description>Spacing methods use baseline grids, keylines, padding, and incremental spacing to affect ratios, containers, and touch targets.
+Consult Material Design for guidelines on spacing.
+resource-icon-materialSpacing Methodsmaterial.io </description>
+    </item>
+    
+    <item>
+      <title>Style</title>
+      <link>https://pfas.practera.com/style/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/style/</guid>
+      <description>PFAS is on one hand a design and on the other, a visual language. It is a unique set of elements thoughtfully engineered to represent the values and personality of the Practera brand.
+These guidelines are set up to introduce you to the identity elements and best-practices to help inspire and excite you as you move forward in creating Practera communications.</description>
+    </item>
+    
+    <item>
+      <title>Switch</title>
+      <link>https://pfas.practera.com/components/switch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/switch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tablet and Desktop</title>
+      <link>https://pfas.practera.com/layout/tablet-and-desktop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/layout/tablet-and-desktop/</guid>
+      <description>PFAS layout whiteframes illustrates how layouts are constructed and serve as a starting point for constructing and adapting to your application-specific layouts. Use the following whiteframes to design layouts for tablet-sized or larger applications.
+Whiteframe The standard tablet/desktop whiteframe is a 12-column layout with 96dp margins and 16dp gutters.
+Text is left-aligned to the left-most column with certain parent containers overhanging into the margins. As shown here, the Practera logo, back navigation button and padding of form fields overhang into the margin, to allow text to be flushed left.</description>
+    </item>
+    
+    <item>
+      <title>Tabs</title>
+      <link>https://pfas.practera.com/components/tabs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/tabs/</guid>
+      <description>Tabs organize content across different screens, data sets, and other interactions.
+Tabs are:
+ Used to organize and allow navigation between groups of content Tabbed content that are related and at the same level of hierarchy Labels should be short and succinct Always be in a single row Aligned to the bottom of its parent container  Text Tabs Text tabs should almost always be used in web/desktop interfaces.</description>
+    </item>
+    
+    <item>
+      <title>Text Field</title>
+      <link>https://pfas.practera.com/components/text-field/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/text-field/</guid>
+      <description>Text fields let users enter and edit text.
+Text fields:
+ Should stand out and indicate that users can input information Should have distinct states Should make it easy to understand the requested information and to address any errors  Anatomy A text field consists of essential and optional building blocks.
+Use leading and trailing icons only in cases where they are required or will greatly enhance usability. Overuse of leading and trailing icons will cause the fields to appear unnecessarily busy.</description>
+    </item>
+    
+    <item>
+      <title>Tooltip</title>
+      <link>https://pfas.practera.com/components/tooltip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/components/tooltip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Typography</title>
+      <link>https://pfas.practera.com/style/typography/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/style/typography/</guid>
+      <description>The PFAS type system borrows heavily from the default Material Design type system. Besides the specific nuances described below, consult the Material Design typography guidelines for what you should do when it comes to setting type.
+Fonts Roboto Roboto has a dual nature. It has a mechanical skeleton and the forms are largely geometric. At the same time, the font features friendly and open curves. While some grotesks distort their letterforms to force a rigid rhythm, Roboto doesn’t compromise, allowing letters to be settled into their natural width.</description>
+    </item>
+    
+    <item>
+      <title>What’s New</title>
+      <link>https://pfas.practera.com/whats-new/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/whats-new/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Writing</title>
+      <link>https://pfas.practera.com/style/writing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfas.practera.com/style/writing/</guid>
+      <description> Text should be understandable by anyone, anywhere, regardless of their culture or language.
+Consult Material Design for guidelines.
+Resources resource-icon-materialWriting Guidelinesmaterial.io </description>
+    </item>
+    
+  </channel>
+</rss>
