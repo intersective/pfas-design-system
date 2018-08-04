@@ -3,7 +3,7 @@ title: "Spacing Methods"
 menu:
   docs:
     title: "Spacing Methods"
-    weight: 20
+    weight: 10
     parent: "Layout"
 ---
 Spacing methods use baseline grids, keylines, padding, and incremental spacing to affect ratios, containers, and touch targets.

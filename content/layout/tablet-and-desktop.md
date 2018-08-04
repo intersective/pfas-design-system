@@ -3,20 +3,22 @@ title: "Tablet and Desktop"
 menu:
   docs:
     title: "Tablet and Desktop"
-    weight: 10
+    weight: 20
     parent: "Layout"
 toc: true
 ---
 
 PFAS layout whiteframes illustrates how layouts are constructed and serve as a starting point for constructing and adapting to your application-specific layouts. Use the following whiteframes to design layouts for tablet-sized or larger applications.
 
-## Whiteframe
+## Base Whiteframe
 
-The standard tablet/desktop whiteframe is a 12-column layout with 96dp margins and 16dp gutters.
+The base tablet/desktop whiteframe is a 12-column layout with 96dp margins and 16dp gutters.
 
 Text is left-aligned to the left-most column with certain parent containers overhanging into the margins. As shown here, the Practera logo, _back_ navigation button and padding of form fields overhang into the margin, to allow text to be flushed left.
 
-{{% component-figure src="/img/layout/whiteframes/standard.png" %}}
+The primary content of the page (the form in this example) takes up the width of 8 columns.
+
+{{% component-figure src="/img/layout/whiteframes/base.png" %}}
   1. 96dp margins
   2. 16dp gutters
 {{% /component-figure %}}
@@ -25,7 +27,7 @@ Text is left-aligned to the left-most column with certain parent containers over
 
 ## The Header Bar
 
-{{% component-figure src="/img/layout/whiteframes/standard-header-and-app-bar.png" %}}
+{{% component-figure src="/img/layout/whiteframes/base-header-and-app-bar.png" %}}
   1. Product Logo
   2. Project Switcher
   3. Project Sub Navigation
@@ -47,6 +49,17 @@ The white area (1 – 5) is reserved for Project and User-level navigation, whil
 6. **Page Navigation** appears in second-level or deeper pages to provide access up the navigation stack.
 7. **Page Title** shows the user clearly what page they are on.
 8. **Page Action** provides contextual actions specific to the page content below.
+
+---
+
+## Data Table Whiteframe
+
+When the primary content is a single data table, Page Navigation, Page Title and Page Actions are in the data table header.
+
+{{% component-figure src="/img/layout/whiteframes/data-table.png" %}}
+  1. Table Title
+  2. Table Actions
+{{% /component-figure %}}
 
 ---
 
