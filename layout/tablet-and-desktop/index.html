@@ -8,7 +8,7 @@
         content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Tablet and Desktop &ndash; PFAS Design System</title>
   
-  <link href="https://practera.design/css/main.min.1c14f9682a02c8e39e478c7e9bacf88e6322b9c3eb6334211d8ae2643fdf6a8d.css" rel="stylesheet">
+  <link href="https://practera.design/css/main.min.e60db99ddcf0f14966a31fc9b830960fb8c90f82c0e3112d9045a8d2d476efdd.css" rel="stylesheet">
 </head>
 
 <body>
@@ -100,12 +100,12 @@
           
           <ul>
             
-            <li class="menu-active">
-              <a href="/layout/tablet-and-desktop/" title="Tablet and Desktop">Tablet and Desktop</a>
-            </li>
-            
             <li class="">
               <a href="/layout/spacing-methods/" title="Spacing Methods">Spacing Methods</a>
+            </li>
+            
+            <li class="menu-active">
+              <a href="/layout/tablet-and-desktop/" title="Tablet and Desktop">Tablet and Desktop</a>
             </li>
             
           </ul>
@@ -249,8 +249,8 @@
         
         
         
-        <a href="/layout/tablet-and-desktop/#whiteframe">
-          <li>Whiteframe</li>
+        <a href="/layout/tablet-and-desktop/#base-whiteframe">
+          <li>Base Whiteframe</li>
         </a>
         
         </ul>
@@ -295,6 +295,29 @@
         
         
         
+        <a href="/layout/tablet-and-desktop/#data-table-whiteframe">
+          <li>Data Table Whiteframe</li>
+        </a>
+        
+        </ul>
+        
+        </ul>
+        
+      
+    
+  
+    
+    
+      
+        
+        
+        <ul class="toc-h1">
+        
+        <ul class="toc-h2">
+        
+        
+        
+        
         <a href="/layout/tablet-and-desktop/#resources">
           <li>Resources</li>
         </a>
@@ -314,11 +337,13 @@
 
 <p>PFAS layout whiteframes illustrates how layouts are constructed and serve as a starting point for constructing and adapting to your application-specific layouts. Use the following whiteframes to design layouts for tablet-sized or larger applications.</p>
 
-<h2 id="whiteframe">Whiteframe</h2>
+<h2 id="base-whiteframe">Base Whiteframe</h2>
 
-<p>The standard tablet/desktop whiteframe is a 12-column layout with 96dp margins and 16dp gutters.</p>
+<p>The base tablet/desktop whiteframe is a 12-column layout with 96dp margins and 16dp gutters.</p>
 
 <p>Text is left-aligned to the left-most column with certain parent containers overhanging into the margins. As shown here, the Practera logo, <em>back</em> navigation button and padding of form fields overhang into the margin, to allow text to be flushed left.</p>
+
+<p>The primary content of the page (the form in this example) takes up the width of 8 columns.</p>
 
 
 
@@ -327,7 +352,7 @@
 
 <figure class="component-figure ">
   <div>
-    <img src="/img/layout/whiteframes/standard.png" alt="Component" />
+    <img src="/img/layout/whiteframes/base.png" alt="Component" />
     
   </div>
   <figcaption>
@@ -350,7 +375,7 @@
 
 <figure class="component-figure ">
   <div>
-    <img src="/img/layout/whiteframes/standard-header-and-app-bar.png" alt="Component" />
+    <img src="/img/layout/whiteframes/base-header-and-app-bar.png" alt="Component" />
     
   </div>
   <figcaption>
@@ -381,6 +406,31 @@
 <li><strong>Page Title</strong> shows the user clearly what page they are on.</li>
 <li><strong>Page Action</strong> provides contextual actions specific to the page content below.</li>
 </ol>
+
+<hr />
+
+<h2 id="data-table-whiteframe">Data Table Whiteframe</h2>
+
+<p>When the primary content is a single data table, Page Navigation, Page Title and Page Actions are in the data table header.</p>
+
+
+
+
+
+
+<figure class="component-figure ">
+  <div>
+    <img src="/img/layout/whiteframes/data-table.png" alt="Component" />
+    
+  </div>
+  <figcaption>
+    <ol>
+<li>Table Title</li>
+<li>Table Actions</li>
+</ol>
+
+  </figcaption>
+</figure>
 
 <hr />
 

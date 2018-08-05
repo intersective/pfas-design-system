@@ -29,7 +29,7 @@ resource-icon-materialSpacing Methodsmaterial.io </description>
       
       <guid>https://practera.design/layout/tablet-and-desktop/</guid>
       <description>PFAS layout whiteframes illustrates how layouts are constructed and serve as a starting point for constructing and adapting to your application-specific layouts. Use the following whiteframes to design layouts for tablet-sized or larger applications.
-Whiteframe The standard tablet/desktop whiteframe is a 12-column layout with 96dp margins and 16dp gutters.
+Base Whiteframe The base tablet/desktop whiteframe is a 12-column layout with 96dp margins and 16dp gutters.
 Text is left-aligned to the left-most column with certain parent containers overhanging into the margins. As shown here, the Practera logo, back navigation button and padding of form fields overhang into the margin, to allow text to be flushed left.</description>
     </item>
     
