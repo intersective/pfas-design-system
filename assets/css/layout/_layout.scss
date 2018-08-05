@@ -145,14 +145,6 @@ body > header {
           Used for sub-sections within sections
     --------------------------*/
 
-//        Articles
-
-main {
-  > article > header {}
-  > article > section {}
-  > article > footer {}
-}
-
 //        Containers
 
 .container {
@@ -375,7 +367,8 @@ main {
 
 .hero {
   background-color:             $brand-color-whisper;
-  background-image:             url($svg-hero-bg);
+  background-image:             url('/img/home/hero_bg.png');
+  background-size:              contain;
   background-position:          right bottom;
   background-repeat:            no-repeat;
   border-bottom:                $ui-border-width solid $ui-border-color;
