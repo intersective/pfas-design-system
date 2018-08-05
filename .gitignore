@@ -4,6 +4,7 @@ public/.gitattributes
 
 node_modules/
 public/
+resources/*
 
 data/**/hash.json
 data/*/hash.json
