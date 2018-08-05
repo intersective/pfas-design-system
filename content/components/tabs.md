@@ -36,15 +36,27 @@ Whether to use left-aligned or center-aligned tabs is left to the designer’s d
 
 ---
 
-## Icon Tabs
+## Icon + Text Tabs
 
-Icon tabs are primarily used where space is constrainted, i.e. mobile device.
+Icon + text tabs are primarily used where space is constrainted, i.e. mobile device.
 
-{{< component-figure src="/img/components/tabs/icon tabs.png" >}}
-  Icon tabs
+{{< component-figure src="/img/components/tabs/icon label tabs.png" >}}
+  Icon + text tabs
 {{< /component-figure >}}
 
-Icon tabs do not have active indicator bars.
+This style of tabs is usually preferred over icon-only tabs because of added usability. Note there is no active indicator.
+
+---
+
+## Icon-only Tabs
+
+Icon-only tabs are primarily used where space is constrainted, i.e. mobile device.
+
+{{< component-figure src="/img/components/tabs/icon tabs.png" >}}
+  Icon-only tabs
+{{< /component-figure >}}
+
+Use this style of tabs only when the icons are very well-understood.
 
 ---
 
