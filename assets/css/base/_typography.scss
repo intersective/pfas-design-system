@@ -56,6 +56,10 @@ p img {
   height:                       auto;
 }
 
+blockquote p {
+  @include type-subheading1();
+}
+
 hr {
   height:                       1px;
   margin:                       $ui-space-base * 8 0;
