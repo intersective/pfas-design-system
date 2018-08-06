@@ -6,7 +6,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport"
         content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Data Table &ndash; PFAS Design System</title>
+  <title>Mobile &ndash; PFAS Design System</title>
   
   <link href="https://practera.design/css/main.min.23739c6604d4e68614fbee1e9b8ddc69c4a10855e96316f4675bb367b3a7ab95.css" rel="stylesheet">
 </head>
@@ -92,7 +92,7 @@
           
       </li>
       
-      <li class="">
+      <li class="menu-active">
         <a href="/layout/" title="Layout">
           Layout
           <span class="menu-dropdown"></span>
@@ -108,7 +108,7 @@
               <a href="/layout/tablet-and-desktop/" title="Tablet and Desktop">Tablet and Desktop</a>
             </li>
             
-            <li class="">
+            <li class="menu-active">
               <a href="/layout/mobile/" title="Mobile">Mobile</a>
             </li>
             
@@ -116,7 +116,7 @@
           
       </li>
       
-      <li class="menu-active">
+      <li class="">
         <a href="/components/" title="Components">
           Components
           <span class="menu-dropdown"></span>
@@ -132,7 +132,7 @@
               <a href="/components/card/" title="Card">Card</a>
             </li>
             
-            <li class="menu-active">
+            <li class="">
               <a href="/components/data-table/" title="Data Table">Data Table</a>
             </li>
             
@@ -233,9 +233,222 @@
 
       <section>
         <div class="container container-narrow">
-          <h1>Data Table</h1>
+          <h1>Mobile</h1>
+          
+            
+
+
+
+<nav class="toc">
+  
+    
+    
+      
+        
+        
+        <ul class="toc-h1">
+        
+        <ul class="toc-h2">
+        
+        
+        
+        
+        <a href="/layout/mobile/#base-whiteframe">
+          <li>Base Whiteframe</li>
+        </a>
+        
+        </ul>
+        
+        </ul>
+        
+      
+    
+  
+    
+    
+      
+        
+        
+        <ul class="toc-h1">
+        
+        <ul class="toc-h2">
+        
+        
+        
+        
+        <a href="/layout/mobile/#small-title-variant">
+          <li>Small-title Variant</li>
+        </a>
+        
+        </ul>
+        
+        </ul>
+        
+      
+    
+  
+    
+    
+      
+        
+        
+        <ul class="toc-h1">
+        
+        <ul class="toc-h2">
+        
+        
+        
+        
+        <a href="/layout/mobile/#scrolling-behavior">
+          <li>Scrolling Behavior</li>
+        </a>
+        
+        </ul>
+        
+        </ul>
+        
+      
+    
+  
+    
+    
+      
+        
+        
+        <ul class="toc-h1">
+        
+        <ul class="toc-h2">
+        
+        
+        
+        
+        <a href="/layout/mobile/#resources">
+          <li>Resources</li>
+        </a>
+        
+        </ul>
+        
+        </ul>
+        
+      
+    
+  
+</nav>
+
+            <hr>
           
           
+
+<p>PFAS layout whiteframes illustrates how layouts are constructed and serve as a starting point for constructing and adapting to your application-specific layouts. Use the following whiteframes to design layouts for tablet-sized or larger applications.</p>
+
+<h2 id="base-whiteframe">Base Whiteframe</h2>
+
+<p>The base mobile whiteframe is a typical mobile layout with 16dp margins.</p>
+
+<p>The navigation bar is at zero elevation when the scrolltop of the content is at zero. Thus when the content is not scrolled, the navigation bar has no bottom shadow.</p>
+
+<p>The tabs used in the tab bar are icon + text tabs.</p>
+
+
+
+
+
+
+<figure class="component-figure ">
+  <div>
+    <img src="/img/layout/whiteframes/base-mobile.png" alt="Component" />
+    
+  </div>
+  <figcaption>
+    <ol>
+<li>16dp margins</li>
+<li>Back Navigation</li>
+<li>Title</li>
+<li>Actions</li>
+<li>Content Area</li>
+<li>Tab Bar</li>
+</ol>
+
+  </figcaption>
+</figure>
+
+<hr />
+
+<h2 id="small-title-variant">Small-title Variant</h2>
+
+<p>When a view has a long title, consider using a large content title, while reducing the size of the title in the navigation bar.</p>
+
+<p>Example, for a task titled “Meet the release date or fix more bugs?”, use &ldquo;Task&rdquo; as the navigation bar title and the long title in the content.</p>
+
+
+
+
+
+
+<figure class="component-figure ">
+  <div>
+    <img src="/img/layout/whiteframes/base-mobile-variant.png" alt="Component" />
+    
+  </div>
+  <figcaption>
+    <ol>
+<li>Smaller Title</li>
+<li>Content Title</li>
+</ol>
+
+  </figcaption>
+</figure>
+
+<hr />
+
+<h2 id="scrolling-behavior">Scrolling Behavior</h2>
+
+<p>Scrolling content under the navigation causes the elevation of the navigation bar to increase. Imagine sliding a sheet of paper under another sheet causes the top sheet to be raised.</p>
+
+
+
+
+
+
+<figure class="component-figure ">
+  <div>
+    <img src="/img/layout/whiteframes/base-mobile-scrolled.png" alt="Component" />
+    
+  </div>
+  <figcaption>
+    <ol>
+<li>Navigation Bar shadow</li>
+<li>Scrolled content</li>
+</ol>
+
+  </figcaption>
+</figure>
+
+<div class="video-figure-mobile">
+  <iframe src="//player.vimeo.com/video/283342797" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+ </div>
+
+<hr />
+
+<h2 id="resources">Resources</h2>
+
+
+
+
+
+
+<a href="https://projects.invisionapp.com/d/main#/console/13239558/285764659/inspect" target="_blank" class="resource-card resource-invision">
+  <span class="resource-image">
+    
+    <svg height="48" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg"><path d="M43.649 0A4.351 4.351 0 0 1 48 4.351V43.65A4.351 4.351 0 0 1 43.649 48H4.35A4.351 4.351 0 0 1 0 43.649V4.35A4.351 4.351 0 0 1 4.351 0H43.65zM16.042 15.102c1.595 0 2.932-1.25 2.932-2.89 0-1.638-1.337-2.888-2.932-2.888-1.596 0-2.932 1.25-2.932 2.888 0 1.64 1.336 2.89 2.932 2.89zm-6.08 15.473a9.932 9.932 0 0 0-.26 2.17c0 2.545 1.38 4.234 4.313 4.234 2.432 0 4.404-1.444 5.823-3.776l-.867 3.479h4.83l2.76-11.07c.69-2.803 2.026-4.258 4.053-4.258 1.595 0 2.587.992 2.587 2.63 0 .475-.043.992-.216 1.553l-1.423 5.088a7.648 7.648 0 0 0-.301 2.156c0 2.416 1.422 4.182 4.398 4.182 2.544 0 4.57-1.637 5.692-5.562l-1.897-.732c-.95 2.629-1.769 3.104-2.415 3.104-.647 0-.992-.43-.992-1.293 0-.388.086-.818.215-1.337l1.38-4.957c.345-1.164.475-2.196.475-3.145 0-3.708-2.243-5.643-4.96-5.643-2.543 0-5.13 2.294-6.424 4.71l.948-4.335h-7.373l-1.035 3.818h3.45l-2.124 8.505c-1.669 3.708-4.733 3.768-5.118 3.682-.631-.142-1.035-.382-1.035-1.203 0-.473.086-1.153.302-1.973l3.234-12.83H9.79l-1.035 3.819h3.407z" fill="#ff2a63"/></svg>
+    
+  </span>
+  <span class="resource-text">
+    <span class="resource-title">Handoff and Assets</span>
+    <span class="resource-caption">projects.invisionapp.com</span>
+  </span>
+</a>
+
         </div>
       </section>
 

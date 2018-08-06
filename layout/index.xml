@@ -12,6 +12,17 @@
     
     
     <item>
+      <title>Mobile</title>
+      <link>https://practera.design/layout/mobile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://practera.design/layout/mobile/</guid>
+      <description>PFAS layout whiteframes illustrates how layouts are constructed and serve as a starting point for constructing and adapting to your application-specific layouts. Use the following whiteframes to design layouts for tablet-sized or larger applications.
+Base Whiteframe The base mobile whiteframe is a typical mobile layout with 16dp margins.
+The navigation bar is at zero elevation when the scrolltop of the content is at zero. Thus when the content is not scrolled, the navigation bar has no bottom shadow.</description>
+    </item>
+    
+    <item>
       <title>Spacing Methods</title>
       <link>https://practera.design/layout/spacing-methods/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
