@@ -42,6 +42,16 @@ Use basic buttons for _non-call-to-action_ actions.
 
 ---
 
+## Dropdown Buttons
+
+Dropdown buttons are used to open menus, popovers and other transient views that are hidden at first.
+
+{{< component-figure src="/img/components/button/dropdowns.png" >}}
+  Dropdowns
+{{< /component-figure >}}
+
+---
+
 ## Large Buttons
 
 Large buttons are reserved for the primary _call-to-action_ in a single view. There should only be one call-to-action in a single view.
