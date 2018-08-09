@@ -114,6 +114,10 @@ code {
   font-family:                  $type-mono-family;
 }
 
+pre code {
+  display:                      block;
+}
+
 
 /*  =4.0  HEADINGS
           Should correspond to MD styles
