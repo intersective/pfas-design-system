@@ -23,6 +23,8 @@ The primary content of the page (the form in this example) takes up the width of
   2. 16dp gutters
 {{% /component-figure %}}
 
+{{< resource-card class="invision" src="https://projects.invisionapp.com/d/main#/console/14912436/312662479/inspect" title="Base Whiteframe" >}}
+
 ---
 
 ## The Header Bar
@@ -50,6 +52,8 @@ The white area (1 – 5) is reserved for Project and User-level navigation, whil
 7. **Page Title** shows the user clearly what page they are on.
 8. **Page Action** provides contextual actions specific to the page content below.
 
+{{< resource-card class="invision" src="https://projects.invisionapp.com/d/main#/console/14912436/314037039/inspect" title="Header Bar Whiteframe" >}}
+
 ---
 
 ## Data Table Whiteframe
@@ -61,8 +65,25 @@ When the primary content is a single data table, Page Navigation, Page Title and
   2. Table Actions
 {{% /component-figure %}}
 
+{{< resource-card class="invision" src="https://projects.invisionapp.com/d/main#/console/14912436/314036431/inspect" title="Data Table Whiteframe" >}}
+
 ---
 
-## Resources
+## Chat Whiteframe
 
-{{< resource-card class="invision" src="https://projects.invisionapp.com/d/main#/console/14912436/312662479/inspect" title="Handoff and Assets" >}}
+The chat whiteframe consists of two indpendentently scrollable regions – the Messages List and the Conversation.
+
+{{% component-figure src="/img/layout/whiteframes/chat.png" %}}
+  1. Page Title
+  2. Messages List Search Bar
+  3. Vertical Alignment (left)
+  4. Messages List Column
+  5. Column separator
+  6. Conversation Column
+  7. Vertical Alignment (right)
+  8. Conversation Title Bar
+{{% /component-figure %}}
+
+Note the left-side vertical alignment of the logo and avatars. As with the base whiteframe, the margins (blue) are fixed (96dp) and the layout is responsive, with the messages list spanning 4/12 columns and the conversation 8/12 columns.
+
+{{< resource-card class="invision" src="https://projects.invisionapp.com/d/main#/console/14912436/314036430/inspect" title="Chat Whiteframe" >}}
