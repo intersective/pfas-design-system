@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Brand</title>
+      <link>https://practera.design/brand/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://practera.design/brand/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Button</title>
       <link>https://practera.design/components/button/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -138,6 +147,16 @@ Principles  UIs should use intuitive and predictable layouts, with consistent UI
     </item>
     
     <item>
+      <title>Logo</title>
+      <link>https://practera.design/brand/logo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://practera.design/brand/logo/</guid>
+      <description>The Practera logo is a core element of our identity and is used in all corporate and consumer communications. It consists of the &amp;lsquo;practera&amp;rsquo; wordmark and trefoil brandmark.
+Primary Usage Primary color and black wordmark against light background  Primary color and black wordmark against white background  Primary color and white wordmark against dark background  Primary color and white wordmark against black background  Assets resource-icon-dropboxLogo AI, EPS, PNG, SVG (Primary)www.</description>
+    </item>
+    
+    <item>
       <title>Mobile</title>
       <link>https://practera.design/layout/mobile/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -190,15 +209,6 @@ The navigation bar is at zero elevation when the scrolltop of the content is at 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://practera.design/components/progress-and-activity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Resources</title>
-      <link>https://practera.design/resources/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://practera.design/resources/</guid>
       <description></description>
     </item>
     
