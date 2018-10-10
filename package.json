@@ -19,8 +19,9 @@
     "gulp-replace": "^1.0.0",
     "gulp-sass-inline-svg": "^1.0.3",
     "gulp-sassvg": "^3.0.0",
-    "gulp-svgmin": "^1.2.4",
-    "npm": "^6.3.0"
+    "gulp-svgmin": "^2.1.0",
+    "npm": "^6.3.0",
+    "update": "^0.7.4"
   },
   "devDependencies": {
     "gulp-cache": "^1.0.2"
