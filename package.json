@@ -20,7 +20,7 @@
     "gulp-sass-inline-svg": "^1.0.3",
     "gulp-sassvg": "^3.0.0",
     "gulp-svgmin": "^2.1.0",
-    "npm": "^6.3.0",
+    "npm": "^6.13.4",
     "update": "^0.7.4"
   },
   "devDependencies": {
