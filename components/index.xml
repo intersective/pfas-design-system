@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Components on PFAS Design System</title>
@@ -29,7 +29,7 @@
       
       <guid>https://practera.design/components/card/</guid>
       <description>Cards are:
- Used for displaying tasks in student app Titles should be in title-case Short and succinct titles preferred Use color wisely to add usability  Plain Cards Default: The default usually is the most effective  Colored (light): When branding, use a light card for light background  Colored (dark): When branding, use a dark card for dark background  Image Cards Default: Use a dark card and ensure image is dark enough for readable text  Text-protection: Text-protection using a black gradient is necessary if image is too light  Tint: Works best with low-contrast, medium-brightness images.</description>
+ Used for displaying tasks in student app Titles should be in title-case Short and succinct titles preferred Use color wisely to add usability  Plain Cards Default: The default usually is the most effective  Colored (light): When branding, use a light card for light background  Colored (dark): When branding, use a dark card for dark background   Image Cards Default: Use a dark card and ensure image is dark enough for readable text  Text-protection: Text-protection using a black gradient is necessary if image is too light  Tint: Works best with low-contrast, medium-brightness images.</description>
     </item>
     
     <item>
@@ -157,7 +157,8 @@
       <guid>https://practera.design/components/tabs/</guid>
       <description>Tabs organize content across different screens, data sets, and other interactions.
 Tabs are:
- Used to organize and allow navigation between groups of content Tabbed content that are related and at the same level of hierarchy Labels should be short and succinct Always be in a single row Aligned to the bottom of its parent container  Text Tabs Text tabs should almost always be used in web/desktop interfaces.</description>
+ Used to organize and allow navigation between groups of content Tabbed content that are related and at the same level of hierarchy Labels should be short and succinct Always be in a single row Aligned to the bottom of its parent container  Text Tabs Text tabs should almost always be used in web/desktop interfaces.
+Left-aligned text tabs  Center-aligned text tabs  Text tabs have active indicator bars.</description>
     </item>
     
     <item>

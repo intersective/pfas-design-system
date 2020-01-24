@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
@@ -8,7 +8,6 @@
   
   <url>
     <loc>https://practera.design/brand/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -21,7 +20,6 @@
   
   <url>
     <loc>https://practera.design/categories/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -30,7 +28,6 @@
   
   <url>
     <loc>https://practera.design/components/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -75,7 +72,6 @@
   
   <url>
     <loc>https://practera.design/layout/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -132,7 +128,6 @@
   
   <url>
     <loc>https://practera.design/style/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -149,7 +144,6 @@
   
   <url>
     <loc>https://practera.design/tags/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
